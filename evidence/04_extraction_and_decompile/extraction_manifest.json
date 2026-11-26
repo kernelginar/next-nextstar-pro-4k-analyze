@@ -1,0 +1,62 @@
+{
+  "collected_at_utc": "2026-11-25T11:39:22.642652+00:00",
+  "device_serial": "90094381518171",
+  "data": {
+    "pulled": [
+      {
+        "remote_path": "/system/app/SdtFrontPanelLedsService/SdtFrontPanelLedsService.apk",
+        "local_path": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\pulled_artifacts\\system_apps\\SdtFrontPanelLedsService.apk",
+        "size_bytes": 2439632,
+        "sha256": "5bebbc6556aef09da97fdba3309817e24b03d6fb8984e9540800593fe056469f"
+      },
+      {
+        "remote_path": "/system/app/SdtGtvPartnerConfig/SdtGtvPartnerConfig.apk",
+        "local_path": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\pulled_artifacts\\system_apps\\SdtGtvPartnerConfig.apk",
+        "size_bytes": 1042970,
+        "sha256": "4052d7cd4473858d121ae0d74eaa8c08adccfe65725a4abc07a5fbe396d9100b"
+      },
+      {
+        "remote_path": "/system/app/RtkPartnerInterface/RtkPartnerInterface.apk",
+        "local_path": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\pulled_artifacts\\system_apps\\RtkPartnerInterface.apk",
+        "size_bytes": 66260,
+        "sha256": "f5ae15aef7f64fb590c353920b60dd6c0e6e6ef835c0b2474fad435fcc6f5f5e"
+      },
+      {
+        "remote_path": "/data/app/~~Dyjuf2qzCSjqPwiHWuQE0A==/com.jettv.player-hrjEoLct64GV_l0V0YXVzg==/base.apk",
+        "local_path": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\pulled_artifacts\\data_apps\\base.apk",
+        "size_bytes": 3689433,
+        "sha256": "ab2f6d257f357710e7e323a185b7db95616566d093b0a8eee28a2796b6f62c59"
+      }
+    ],
+    "decompiled": [
+      {
+        "apk_path": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\pulled_artifacts\\system_apps\\SdtFrontPanelLedsService.apk",
+        "output_dir": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\decompiled\\system_apps__SdtFrontPanelLedsService",
+        "returncode": 3,
+        "stdout_tail": "INFO  - loading ...\nINFO  - processing ...\nINFO  - progress: 0 of 1236 (0%)\nINFO  - progress: 439 of 1236 (35%)\nINFO  - progress: 782 of 1236 (63%)\nINFO  - progress: 1066 of 1236 (86%)\n                                                             \nERROR - finished with errors, count: 4\n",
+        "stderr_tail": ""
+      },
+      {
+        "apk_path": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\pulled_artifacts\\system_apps\\SdtGtvPartnerConfig.apk",
+        "output_dir": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\decompiled\\system_apps__SdtGtvPartnerConfig",
+        "returncode": 0,
+        "stdout_tail": "INFO  - loading ...\nINFO  - processing ...\nINFO  - progress: 0 of 32 (0%)\n                                                             \nINFO  - done\n",
+        "stderr_tail": ""
+      },
+      {
+        "apk_path": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\pulled_artifacts\\system_apps\\RtkPartnerInterface.apk",
+        "output_dir": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\decompiled\\system_apps__RtkPartnerInterface",
+        "returncode": 0,
+        "stdout_tail": "INFO  - loading ...\nINFO  - processing ...\nINFO  - progress: 0 of 16 (0%)\n                                                             \nINFO  - done\n",
+        "stderr_tail": ""
+      },
+      {
+        "apk_path": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\pulled_artifacts\\data_apps\\base.apk",
+        "output_dir": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\decompiled\\data_apps__base",
+        "returncode": 3,
+        "stdout_tail": "INFO  - loading ...\nINFO  - processing ...\nINFO  - progress: 0 of 1900 (0%)\nINFO  - progress: 560 of 1900 (29%)\nINFO  - progress: 817 of 1900 (43%)\nINFO  - progress: 1099 of 1900 (57%)\nINFO  - progress: 1389 of 1900 (73%)\nINFO  - progress: 1642 of 1900 (86%)\n                                                             \nERROR - finished with errors, count: 16\n",
+        "stderr_tail": ""
+      }
+    ]
+  }
+}

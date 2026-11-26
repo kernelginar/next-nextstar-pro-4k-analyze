@@ -1,0 +1,51 @@
+{
+  "collected_at_utc": "2026-11-25T11:33:56.183944+00:00",
+  "device_serial": "90094381518171",
+  "data": {
+    "etc_hosts": {
+      "command": "cat /etc/hosts 2>&1",
+      "returncode": 0,
+      "output": "127.0.0.1       localhost\n::1             ip6-localhost\n"
+    },
+    "vendor_ta_inactive": {
+      "command": "ls -laR /vendor/ta_inactive 2>&1 | head -n 200",
+      "returncode": 0,
+      "output": "/vendor/ta_inactive:\ntotal 8\ndrwxr-xr-x  2 root shell 4096 2009-01-01 02:00 .\ndrwxr-xr-x 15 root shell 4096 2009-01-01 02:00 ..\n-rw-r--r--  1 root root     0 2009-01-01 02:00 dummy.file\n"
+    },
+    "oem_modules": {
+      "command": "ls -laR /oem/lib 2>&1",
+      "returncode": 1,
+      "output": "/oem/lib:\ntotal 8\ndrwxr-xr-x 3 root root 4096 2026-05-20 13:50 .\ndrwxr-xr-x 6 root root 4096 2026-05-20 13:50 ..\nd????????? ? ?    ?       ?                ? modules\nls: modules: Permission denied\n"
+    },
+    "data_system_packages_list": {
+      "command": "ls -la /data/local /data/vendor /sdcard /sdcard/Download 2>&1",
+      "returncode": 1,
+      "output": "\nlrw-r--r--  1 root   root       21 2009-01-01 02:00 /sdcard -> /storage/self/primary\nls: /data/local: Permission denied\nls: /data/vendor: Permission denied\n\n/sdcard/Download:\ntotal 22744\n-rw-rw---- 1 u0_a82 media_rw 11635053 2025-08-31 20:52 inat-box-update-v14.apk\n-rw-rw---- 1 u0_a82 media_rw 11635053 2026-08-13 20:08 inat-box-v14-inattvproapkindir-tr\\ (1).apk\n"
+    },
+    "resolv_and_dns": {
+      "command": "getprop | grep -iE 'net\\.dns|dhcp\\.|wifi\\.'",
+      "returncode": 0,
+      "output": "[ro.wifi.channels]: []\n"
+    },
+    "app_ops_oemservice": {
+      "command": "cmd appops get com.oemservice 2>&1",
+      "returncode": 0,
+      "output": "MANAGE_EXTERNAL_STORAGE: default; rejectTime=+134d17h2m22s951ms ago\nNO_ISOLATED_STORAGE: deny; rejectTime=+134d17h2m22s952ms ago\nBLUETOOTH_CONNECT: allow; time=+24m13s311ms ago\n"
+    },
+    "dumpsys_netstats_summary": {
+      "command": "dumpsys netstats | grep -iE 'uid=1000|uid=10030|uid=10076|com\\.oemservice|com\\.sdt|com\\.next' | head -n 100",
+      "returncode": 0,
+      "output": "  {uid=1000,package=android}=17\n    uid=10030 set=1\n    uid=1000 set=1\n"
+    },
+    "logcat_boot_full_oem": {
+      "command": "logcat -d | grep -iE 'BootReceiver|UpgradeService|x\\.cpe|persist\\.sys\\.cpe|SdtBackUpAppManager|SdtUpdate|SdtProductTest|DaemonService|mecool' | head -n 200",
+      "returncode": 0,
+      "output": "05-20 09:36:51.622   711   820 D SystemServerTimingAsync: InitThreadPoolExec:Update app-ops uidState in case package com.sdt.mecoolrcupair changed\n05-20 09:36:51.632   711   778 D SystemServerTimingAsync: InitThreadPoolExec:Update app-ops uidState in case package com.sdt.mecoolrcupair changed\n05-20 09:36:53.094   711   711 V StorageManagerService: Package com.sdt.mecoolrcupair does not have legacy storage\n05-20 09:36:53.502   711   781 I ActivityManager: Start proc 1209:com.sdt.mecoolrcupair/1000 for added application com.sdt.mecoolrcupair\n05-20 09:36:58.689   711   781 I ActivityManager: Start proc 1898:com.oem.qa/1000 for broadcast {com.oem.qa/com.oem.qa.receiver.BootReceiver}\n05-20 09:36:59.059   711   711 E BootReceiver: Could not open /sys/kernel/tracing/instances/bootreceiver/trace_pipe\n05-20 09:36:59.059   711   711 E BootReceiver: android.system.ErrnoException: open failed: ENOENT (No such file or directory)\n05-20 09:36:59.059   711   711 E BootReceiver: \tat libcore.io.Linux.open(Native Method)\n05-20 09:36:59.059   711   711 E BootReceiver: \tat libcore.io.ForwardingOs.open(ForwardingOs.java:563)\n05-20 09:36:59.059   711   711 E BootReceiver: \tat libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)\n05-20 09:36:59.059   711   711 E BootReceiver: \tat android.system.Os.open(Os.java:494)\n05-20 09:36:59.059   711   711 E BootReceiver: \tat com.android.server.BootReceiver.onReceive(BootReceiver.java:164)\n05-20 09:36:59.059   711   711 E BootReceiver: \tat android.app.ActivityThread.handleReceiver(ActivityThread.java:4449)\n05-20 09:36:59.059   711   711 E BootReceiver: \tat android.app.ActivityThread.-$$Nest$mhandleReceiver(Unknown Source:0)\n05-20 09:36:59.059   711   711 E BootReceiver: \tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:2256)\n05-20 09:36:59.059   711   711 E BootReceiver: \tat android.os.Handler.dispatchMessage(Handler.java:106)\n05-20 09:36:59.059   711   711 E BootReceiver: \tat android.os.Looper.loopOnce(Looper.java:205)\n05-20 09:36:59.059   711   711 E BootReceiver: \tat android.os.Looper.loop(Looper.java:294)\n05-20 09:36:59.059   711   711 E BootReceiver: \tat com.android.server.SystemServer.run(SystemServer.java:970)\n05-20 09:36:59.059   711   711 E BootReceiver: \tat com.android.server.SystemServer.main(SystemServer.java:664)\n05-20 09:36:59.059   711   711 E BootReceiver: \tat java.lang.reflect.Method.invoke(Native Method)\n05-20 09:36:59.059   711   711 E BootReceiver: \tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)\n05-20 09:36:59.059   711   711 E BootReceiver: \tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:949)\n05-20 09:36:59.155   711  1971 I BootReceiver: Copying audit failures to DropBox\n05-20 09:36:59.156   711  1971 I BootReceiver: Checking for fsck errors\n05-20 09:36:59.157   711  1971 I BootReceiver: fs_stat, partition:userdata stat:0x0\n05-20 09:36:59.157   711  1971 I BootReceiver: fs_stat, partition:skyinfo stat:0x1001b\n05-20 09:37:00.278   711   781 I ActivityManager: Start proc 2117:com.android.tv.settings/1000 for broadcast {com.android.tv.settings/com.android.tv.settings.users.UserSwitchListenerService$BootReceiver}\n05-20 09:37:05.241   711   781 I ActivityManager: Start proc 2711:com.android.rkpdapp/u0a117 for broadcast {com.android.rkpdapp/com.android.rkpdapp.BootReceiver}\n05-20 09:37:06.355   711   781 I ActivityManager: Start proc 2837:com.google.android.apps.tv.dreamx/u0a56 for broadcast {com.google.android.apps.tv.dreamx/com.google.android.apps.tv.dreamx.service.BackdropBootReceiver}\n05-20 09:37:09.871   711   781 I ActivityManager: Start proc 3296:com.sdt.frontpanelledsservice/1000 for broadcast {com.sdt.frontpanelledsservice/com.sdt.led.BootReceiver}\n05-20 09:37:10.374   711   781 I ActivityManager: Start proc 3354:com.sdt.ota/u0a30 for broadcast {com.sdt.ota/com.sdt.ota.BootReceiver}\n05-20 09:37:10.972  3296  3296 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startForegroundService:1905 android.content.ContextWrapper.startForegroundService:830 android.content.ContextWrapper.startForegroundService:830 com.sdt.led.CoreService.startAction:7 com.sdt.led.BootReceiver.onReceive:29 \n05-20 09:37:11.944   711  2063 I ActivityManager: Background started FGS: Allowed [callingPackage: com.sdt.producttest; callingUid: 1000; uidState: PER ; uidBFSL: [BFSL]; intent: Intent { cmp=com.sdt.producttest/com.sdt.cmd_handle.DaemonService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<,reasonCode:SYSTEM_ALLOW_LISTED,duration:9223372036854775807,callingUid:-1>; targetSdkVersion:34; callerTargetSdkVersion:34; startForegroundCount:0; bindFromPackage:null: isBindService:false]\n05-20 09:37:20.024  1845  1881 W rx:coreservices: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/SdtProductTest/SdtProductTest.apk' with 1 weak references\n05-20 09:37:23.191  1845  1881 W rx:coreservices: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/SdtUpdate/SdtUpdate.apk' with 1 weak references\n05-20 09:37:25.255  1281  1309 W id.ext.services: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/SdtProductTest/SdtProductTest.apk' with 1 weak references\n05-20 09:37:25.255  1281  1309 W id.ext.services: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/SdtUpdate/SdtUpdate.apk' with 1 weak references\n05-20 09:52:00.334  3953  3953 D RecentAppsPreferenceController: Invalid timestamp, skipping com.sdt.mecoolrcupair\n05-20 09:52:09.287  3953  3963 W oid.tv.settings: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/SdtProductTest/SdtProductTest.apk' with 1 weak references\n05-20 09:59:07.412  4594  4595 W ziparchive: Unable to open '/oem/app/SdtBackUpAppManager.dm': No such file or directory\n05-20 09:59:07.412  4594  4595 W ziparchive: Unable to open '/oem/app/SdtBackUpAppManager.dm': No such file or directory\n05-20 09:59:07.407  4594  4594 W binder:4594_1: type=1400 audit(0.0:277): avc:  denied  { read } for  name=\"SdtBackUpAppManager.apk\" dev=\"dm-19\" ino=16 scontext=u:r:artd:s0 tcontext=u:object_r:oemfs:s0 tclass=file permissive=0\n"
+    },
+    "cert_check_system_apps": {
+      "command": "ls -la /system/app/SdtFrontPanelLedsService /system/app/SdtGtvPartnerConfig /system/app/RtkPartnerInterface /system/priv-app/axel 2>&1",
+      "returncode": 0,
+      "output": "/system/app/RtkPartnerInterface:\ntotal 80\ndrwxr-xr-x  3 root root  4096 2009-01-01 02:00 .\ndrwxr-xr-x 23 root root  4096 2009-01-01 02:00 ..\n-rw-r--r--  1 root root 66260 2009-01-01 02:00 RtkPartnerInterface.apk\ndrwxr-xr-x  3 root root  4096 2009-01-01 02:00 oat\n\n/system/app/SdtFrontPanelLedsService:\ntotal 2396\ndrwxr-xr-x  3 root root    4096 2009-01-01 02:00 .\ndrwxr-xr-x 23 root root    4096 2009-01-01 02:00 ..\n-rw-r--r--  1 root root 2439632 2009-01-01 02:00 SdtFrontPanelLedsService.apk\ndrwxr-xr-x  3 root root    4096 2009-01-01 02:00 oat\n\n/system/app/SdtGtvPartnerConfig:\ntotal 1032\ndrwxr-xr-x  3 root root    4096 2009-01-01 02:00 .\ndrwxr-xr-x 23 root root    4096 2009-01-01 02:00 ..\n-rw-r--r--  1 root root 1042970 2009-01-01 02:00 SdtGtvPartnerConfig.apk\ndrwxr-xr-x  3 root root    4096 2009-01-01 02:00 oat\n\n/system/priv-app/axel:\ntotal 10808\ndrwxr-xr-x  3 root root     4096 2009-01-01 02:00 .\ndrwxr-xr-x 31 root root     4096 2009-01-01 02:00 ..\n-rw-r--r--  1 root root 11148371 2009-01-01 02:00 axel.apk\ndrwxr-xr-x  3 root root     4096 2009-01-01 02:00 oat\n"
+    }
+  }
+}

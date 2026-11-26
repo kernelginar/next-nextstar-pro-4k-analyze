@@ -1,0 +1,11 @@
+on property:sys.boot_completed=1 && property:vendor.oem_fw_slot=1
+    umount /vendor/ta_inactive
+    mount ext4 /dev/block/platform/soc@0/98000000.rbus/98012000.emmc/by-name/oem_a /vendor/ta_inactive wait ro noatime nosuid nodev
+
+on property:sys.boot_completed=1 && property:vendor.oem_fw_slot=2
+    umount /vendor/ta_inactive
+    mount ext4 /dev/block/platform/soc@0/98000000.rbus/98012000.emmc/by-name/oem_b /vendor/ta_inactive wait ro noatime nosuid nodev
+
+on property:sys.boot_completed=1 && property:vendor.ota_fw_done=1
+    umount /vendor/ta_inactive
+

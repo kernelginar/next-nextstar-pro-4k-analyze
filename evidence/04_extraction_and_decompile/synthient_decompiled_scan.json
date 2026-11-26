@@ -1,0 +1,132 @@
+{
+  "collected_at_utc": "2026-11-25T12:37:01.337782+00:00",
+  "device_serial": "90094381518171",
+  "data": {
+    "data_apps__base": {
+      "scanned_files": 3049,
+      "synthient_host_hits": {
+        "github.com": [
+          "sources\\defpackage\\bl1.java",
+          "sources\\defpackage\\mm1.java",
+          "sources\\defpackage\\q21.java",
+          "sources\\defpackage\\w21.java",
+          "sources\\defpackage\\wl1.java",
+          "sources\\defpackage\\xe0.java"
+        ]
+      },
+      "sdk_id_hits": {},
+      "compound_behavioral_hits": {}
+    },
+    "oem_apps__com.next.roket": {
+      "scanned_files": 1843,
+      "synthient_host_hits": {},
+      "sdk_id_hits": {},
+      "compound_behavioral_hits": {}
+    },
+    "oem_apps__JetTV": {
+      "scanned_files": 3306,
+      "synthient_host_hits": {
+        "github.com": [
+          "sources\\defpackage\\he0.java",
+          "sources\\defpackage\\me.java",
+          "sources\\defpackage\\o11.java",
+          "sources\\defpackage\\tk1.java",
+          "sources\\defpackage\\u11.java",
+          "sources\\defpackage\\xj1.java"
+        ]
+      },
+      "sdk_id_hits": {},
+      "compound_behavioral_hits": {}
+    },
+    "oem_apps__NextIPTV": {
+      "scanned_files": 8166,
+      "synthient_host_hits": {
+        "github.com": [
+          "resources\\mozilla\\public-suffix-list.txt",
+          "sources\\a\\a.java",
+          "sources\\aa\\g.java",
+          "sources\\ba\\g0.java",
+          "sources\\ba\\u.java",
+          "sources\\com\\google\\firebase\\ai\\common\\ExceptionsKt.java",
+          "sources\\com\\google\\firebase\\ai\\common\\util\\FirstOrdinalSerializer.java",
+          "sources\\da\\c.java",
+          "sources\\fa\\a.java",
+          "sources\\ga\\a.java"
+        ]
+      },
+      "sdk_id_hits": {},
+      "compound_behavioral_hits": {}
+    },
+    "oem_apps__SdtBackUpAppManager": {
+      "scanned_files": 4762,
+      "synthient_host_hits": {},
+      "sdk_id_hits": {},
+      "compound_behavioral_hits": {}
+    },
+    "system_apps__RtkPartnerInterface": {
+      "scanned_files": 25,
+      "synthient_host_hits": {},
+      "sdk_id_hits": {},
+      "compound_behavioral_hits": {}
+    },
+    "system_apps__SdtDeviceInfo": {
+      "scanned_files": 1122,
+      "synthient_host_hits": {},
+      "sdk_id_hits": {},
+      "compound_behavioral_hits": {}
+    },
+    "system_apps__SdtFrontPanelLedsService": {
+      "scanned_files": 1950,
+      "synthient_host_hits": {},
+      "sdk_id_hits": {},
+      "compound_behavioral_hits": {}
+    },
+    "system_apps__SdtGtvPartnerConfig": {
+      "scanned_files": 26,
+      "synthient_host_hits": {},
+      "sdk_id_hits": {},
+      "compound_behavioral_hits": {}
+    },
+    "system_apps__SdtProductTest": {
+      "scanned_files": 6047,
+      "synthient_host_hits": {},
+      "sdk_id_hits": {},
+      "compound_behavioral_hits": {}
+    },
+    "system_apps__SdtRcuPair": {
+      "scanned_files": 753,
+      "synthient_host_hits": {},
+      "sdk_id_hits": {},
+      "compound_behavioral_hits": {}
+    },
+    "system_priv_apps__app_xcpe_preset": {
+      "scanned_files": 9,
+      "synthient_host_hits": {},
+      "sdk_id_hits": {},
+      "compound_behavioral_hits": {}
+    },
+    "system_priv_apps__BoxFactoryTest_preset": {
+      "scanned_files": 442,
+      "synthient_host_hits": {},
+      "sdk_id_hits": {},
+      "compound_behavioral_hits": {}
+    },
+    "system_priv_apps__SdtGlobalKeyHandler": {
+      "scanned_files": 7,
+      "synthient_host_hits": {},
+      "sdk_id_hits": {},
+      "compound_behavioral_hits": {}
+    },
+    "system_priv_apps__SdtUpdate": {
+      "scanned_files": 3886,
+      "synthient_host_hits": {
+        "github.com": [
+          "sources\\io\\reactivex\\rxjava3\\exceptions\\OnErrorNotImplementedException.java",
+          "sources\\io\\reactivex\\rxjava3\\exceptions\\UndeliverableException.java"
+        ]
+      },
+      "sdk_id_hits": {},
+      "compound_behavioral_hits": {}
+    }
+  }
+}

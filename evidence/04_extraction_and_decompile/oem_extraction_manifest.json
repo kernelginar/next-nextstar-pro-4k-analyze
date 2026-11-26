@@ -1,0 +1,72 @@
+{
+  "collected_at_utc": "2026-11-25T11:35:17.293510+00:00",
+  "device_serial": "90094381518171",
+  "data": {
+    "pulled": [
+      {
+        "remote_path": "/oem/oem.prop",
+        "local_path": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\pulled_artifacts\\oem_configs\\oem.prop",
+        "size_bytes": 738,
+        "sha256": "4c0c0a25be3cdc107bce7209ac9dd363222697a8693dde382803e859e84209a1"
+      },
+      {
+        "remote_path": "/oem/FLIC",
+        "local_path": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\pulled_artifacts\\oem_configs\\FLIC",
+        "size_bytes": 108,
+        "sha256": "1c474e37abb53945cacb92bbe0f428dc5ffea1e1b21a8c1d2815325bd171063b"
+      },
+      {
+        "remote_path": "/oem/rtkimage/fw_info.txt",
+        "local_path": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\pulled_artifacts\\oem_configs\\fw_info.txt",
+        "size_bytes": 59,
+        "sha256": "125f8d1d3399893d2b34fefd0eb3f7b7f4352a68ac23dfe0d07ec6597668d3d4"
+      },
+      {
+        "remote_path": "/oem/app/SdtBackUpAppManager.apk",
+        "local_path": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\pulled_artifacts\\oem_apps\\SdtBackUpAppManager.apk",
+        "size_bytes": 7907860,
+        "sha256": "6476dfdd9f463d5dc109fd681ed5e41d3e3b0a92c7ad431fb1ba887284a8fab1"
+      },
+      {
+        "remote_path": "/oem/app/com.next.roket.apk",
+        "local_path": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\pulled_artifacts\\oem_apps\\com.next.roket.apk",
+        "size_bytes": 2154010,
+        "sha256": "e8239d935edde2cb9da8330a53d708d94dcba66ce887223aad55d9a019b97386"
+      },
+      {
+        "remote_path": "/oem/app/JetTV.apk",
+        "local_path": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\pulled_artifacts\\oem_apps\\JetTV.apk",
+        "size_bytes": 13600645,
+        "sha256": "51536f84c9bab7adc113719129ab30952ef3a6a6d7f85265f17b5d24e1d68fd5"
+      },
+      {
+        "remote_path": "/oem/app/NextIPTV.apk",
+        "local_path": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\pulled_artifacts\\oem_apps\\NextIPTV.apk",
+        "size_bytes": 16001180,
+        "sha256": "c1f33f299f8983c790fcfccb100c72a4fb7c3b1345615f02d6342de8f4a88987"
+      }
+    ],
+    "decompiled": [
+      {
+        "apk_path": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\pulled_artifacts\\oem_apps\\SdtBackUpAppManager.apk",
+        "output_dir": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\decompiled\\oem_apps__SdtBackUpAppManager",
+        "returncode": 3
+      },
+      {
+        "apk_path": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\pulled_artifacts\\oem_apps\\com.next.roket.apk",
+        "output_dir": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\decompiled\\oem_apps__com.next.roket",
+        "returncode": 3
+      },
+      {
+        "apk_path": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\pulled_artifacts\\oem_apps\\JetTV.apk",
+        "output_dir": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\decompiled\\oem_apps__JetTV",
+        "returncode": 3
+      },
+      {
+        "apk_path": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\pulled_artifacts\\oem_apps\\NextIPTV.apk",
+        "output_dir": "C:\\Users\\Techolay\\Documents\\next-nextstar-analyze\\decompiled\\oem_apps__NextIPTV",
+        "returncode": 3
+      }
+    ]
+  }
+}

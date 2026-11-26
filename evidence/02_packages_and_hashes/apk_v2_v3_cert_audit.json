@@ -1,0 +1,96 @@
+{
+  "collected_at_utc": "2026-11-25T12:37:34.752194+00:00",
+  "device_serial": "90094381518171",
+  "data": {
+    "base.apk": {
+      "v2_v3_cert_sha256": [
+        "b38d8794e308445a4bcc19a50c500e17c4f158af4b22c07bbf5f4195ca2a2ff0"
+      ],
+      "malicious_cert_matches": []
+    },
+    "com.next.roket.apk": {
+      "v2_v3_cert_sha256": [
+        "ad35d04c2bb54b17444a2868ce47f38055290cdc5a7c889cb23316d99dc2663d"
+      ],
+      "malicious_cert_matches": []
+    },
+    "JetTV.apk": {
+      "v2_v3_cert_sha256": [
+        "b38d8794e308445a4bcc19a50c500e17c4f158af4b22c07bbf5f4195ca2a2ff0"
+      ],
+      "malicious_cert_matches": []
+    },
+    "NextIPTV.apk": {
+      "v2_v3_cert_sha256": [
+        "39aa51b2a54d459584fdfc7b04074c16de704741bd6d211d92220667f89a8e23"
+      ],
+      "malicious_cert_matches": []
+    },
+    "SdtBackUpAppManager.apk": {
+      "v2_v3_cert_sha256": [
+        "12bf50a03f1ed9c91a6c0ae0b78dca882c7005885a178aedd549cda27fde601c"
+      ],
+      "malicious_cert_matches": []
+    },
+    "RtkPartnerInterface.apk": {
+      "v2_v3_cert_sha256": [
+        "12bf50a03f1ed9c91a6c0ae0b78dca882c7005885a178aedd549cda27fde601c"
+      ],
+      "malicious_cert_matches": []
+    },
+    "SdtDeviceInfo.apk": {
+      "v2_v3_cert_sha256": [
+        "12bf50a03f1ed9c91a6c0ae0b78dca882c7005885a178aedd549cda27fde601c"
+      ],
+      "malicious_cert_matches": []
+    },
+    "SdtFrontPanelLedsService.apk": {
+      "v2_v3_cert_sha256": [
+        "12bf50a03f1ed9c91a6c0ae0b78dca882c7005885a178aedd549cda27fde601c"
+      ],
+      "malicious_cert_matches": []
+    },
+    "SdtGtvPartnerConfig.apk": {
+      "v2_v3_cert_sha256": [
+        "12bf50a03f1ed9c91a6c0ae0b78dca882c7005885a178aedd549cda27fde601c"
+      ],
+      "malicious_cert_matches": []
+    },
+    "SdtProductTest.apk": {
+      "v2_v3_cert_sha256": [
+        "12bf50a03f1ed9c91a6c0ae0b78dca882c7005885a178aedd549cda27fde601c"
+      ],
+      "malicious_cert_matches": []
+    },
+    "SdtRcuPair.apk": {
+      "v2_v3_cert_sha256": [
+        "12bf50a03f1ed9c91a6c0ae0b78dca882c7005885a178aedd549cda27fde601c"
+      ],
+      "malicious_cert_matches": []
+    },
+    "app_xcpe_preset.apk": {
+      "v2_v3_cert_sha256": [
+        "12bf50a03f1ed9c91a6c0ae0b78dca882c7005885a178aedd549cda27fde601c"
+      ],
+      "malicious_cert_matches": []
+    },
+    "BoxFactoryTest_preset.apk": {
+      "v2_v3_cert_sha256": [
+        "12bf50a03f1ed9c91a6c0ae0b78dca882c7005885a178aedd549cda27fde601c"
+      ],
+      "malicious_cert_matches": []
+    },
+    "SdtGlobalKeyHandler.apk": {
+      "v2_v3_cert_sha256": [
+        "12bf50a03f1ed9c91a6c0ae0b78dca882c7005885a178aedd549cda27fde601c"
+      ],
+      "malicious_cert_matches": []
+    },
+    "SdtUpdate.apk": {
+      "v2_v3_cert_sha256": [
+        "b247d0baa16ca450f667c4f9ee1d3d69eab4d8ebb398511427526e1e11a9d587"
+      ],
+      "malicious_cert_matches": []
+    }
+  }
+}

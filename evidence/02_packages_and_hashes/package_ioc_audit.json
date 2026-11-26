@@ -1,0 +1,1101 @@
+{
+  "collected_at_utc": "2026-11-25T11:30:34.780614+00:00",
+  "device_serial": "90094381518171",
+  "data": {
+    "total_packages": 143,
+    "third_party_packages_count": 9,
+    "hashed_apks_count": 143,
+    "package_name_matches": [
+      {
+        "package": "com.oemservice",
+        "apk_path": "/system/priv-app/app_xcpe_preset/app_xcpe_preset.apk",
+        "uid": "1000",
+        "is_third_party": false,
+        "sha256": "7316469fd5b9fa633d9474a14b72716b9ceb4bbf656725ab79409da608eda2be"
+      }
+    ],
+    "keyword_matches": [
+      {
+        "package": "com.sdt.mecoolrcupair",
+        "apk_path": "/system/app/SdtRcuPair/SdtRcuPair.apk",
+        "uid": "1000,1001000",
+        "is_third_party": false,
+        "sha256": "649484ce42fe73e74c356b1453c5d06ef47da49e6728c7be029365ba785571eb"
+      },
+      {
+        "package": "com.oemservice",
+        "apk_path": "/system/priv-app/app_xcpe_preset/app_xcpe_preset.apk",
+        "uid": "1000",
+        "is_third_party": false,
+        "sha256": "7316469fd5b9fa633d9474a14b72716b9ceb4bbf656725ab79409da608eda2be"
+      }
+    ],
+    "apk_hash_matches": [],
+    "binary_hash_matches": [],
+    "binary_scan": {
+      "paths": [
+        "/oem/app/SdtBackUpAppManager.apk",
+        "/oem/app/NextIPTV.apk",
+        "/oem/app/JetTV.apk",
+        "/oem/app/com.next.roket.apk"
+      ],
+      "sha256": {
+        "/oem/app/SdtBackUpAppManager.apk": "6476dfdd9f463d5dc109fd681ed5e41d3e3b0a92c7ad431fb1ba887284a8fab1",
+        "/oem/app/NextIPTV.apk": "c1f33f299f8983c790fcfccb100c72a4fb7c3b1345615f02d6342de8f4a88987",
+        "/oem/app/JetTV.apk": "51536f84c9bab7adc113719129ab30952ef3a6a6d7f85265f17b5d24e1d68fd5",
+        "/oem/app/com.next.roket.apk": "e8239d935edde2cb9da8330a53d708d94dcba66ce887223aad55d9a019b97386"
+      }
+    },
+    "third_party_packages": [
+      {
+        "package": "com.google.android.videos",
+        "apk_path": "/data/app/~~-Ux_ATOs2Mq-hu_KJ4Qvyw==/com.google.android.videos-S2gkbXTllEPL8tjbUeQMcg==/base.apk",
+        "uid": "10071,1010071"
+      },
+      {
+        "package": "com.kick.mobile",
+        "apk_path": "/data/app/~~MSHL2PpxFwHH1j68LM7kuQ==/com.kick.mobile-hpxKJWErhsP_uBL61ppMcQ==/base.apk",
+        "uid": "10094"
+      },
+      {
+        "package": "tv.twitch.android.app",
+        "apk_path": "/data/app/~~8Axhyj0RuOUT17QCcDUO6Q==/tv.twitch.android.app-clt9qulPr7pkWAfn9tFDOg==/base.apk",
+        "uid": "10093"
+      },
+      {
+        "package": "com.androidfung.drminfo",
+        "apk_path": "/data/app/~~jxv8gcREFLFHh2w5LeBsrw==/com.androidfung.drminfo-9gAZVM2kez4cTf1GRnyntg==/base.apk",
+        "uid": "10086"
+      },
+      {
+        "package": "com.digiturk.iq.mobil",
+        "apk_path": "/data/app/~~gR8wyMA9B27fQ7ZlIPP6Iw==/com.digiturk.iq.mobil-Zu6dHdtlOH27C850rGYHLg==/base.apk",
+        "uid": "10090"
+      },
+      {
+        "package": "com.trt.tabii.android",
+        "apk_path": "/data/app/~~7E7ToEwtd_3-nkBZpMqgGw==/com.trt.tabii.android-1V0xb6mCArnJm5PYc7nGkg==/base.apk",
+        "uid": "10049"
+      },
+      {
+        "package": "com.wbd.stream",
+        "apk_path": "/data/app/~~79JMF1s1UgV-XpNapdPQFw==/com.wbd.stream-npkh3femcCR9YuYrI_gC5Q==/base.apk",
+        "uid": "10084"
+      },
+      {
+        "package": "com.beonetv.tod",
+        "apk_path": "/data/app/~~lfOX8TAjsKiRwJmryfR_7A==/com.beonetv.tod-l4FWf6PyKA_UfoVJkHPOAQ==/base.apk",
+        "uid": "10008"
+      },
+      {
+        "package": "com.tcl.browser",
+        "apk_path": "/data/app/~~t4CClk35OisihNQ0B-ee4A==/com.tcl.browser-L85chP6djqMg4XCNLyKunA==/base.apk",
+        "uid": "10085"
+      }
+    ],
+    "disabled_packages_raw": "package:/data/app/~~Dyjuf2qzCSjqPwiHWuQE0A==/com.jettv.player-hrjEoLct64GV_l0V0YXVzg==/base.apk=com.jettv.player\npackage:/oem/app/NextIPTV.apk=com.next.iptv\n",
+    "all_packages": [
+      {
+        "package": "com.android.wifi.resources",
+        "apk_path": "/apex/com.android.wifi/priv-app/ServiceWifiResources@UTT1.250214.001/ServiceWifiResources.apk",
+        "uid": "10078",
+        "is_third_party": false,
+        "sha256": "33f5a7bfc9678f2e79ec4cae0b515d01c20ad2f9416360790e37a01c6586c00b"
+      },
+      {
+        "package": "com.androidfung.drminfo",
+        "apk_path": "/data/app/~~jxv8gcREFLFHh2w5LeBsrw==/com.androidfung.drminfo-9gAZVM2kez4cTf1GRnyntg==/base.apk",
+        "uid": "10086",
+        "is_third_party": true,
+        "sha256": "697329749b49f815b0b45ace6c420485e42fb528b9d86fcd52455ebc73b9b07d"
+      },
+      {
+        "package": "com.google.android.permissioncontroller",
+        "apk_path": "/apex/com.android.permission/priv-app/GooglePermissionController@360832280/GooglePermissionController.apk",
+        "uid": "10081,1010081",
+        "is_third_party": false,
+        "sha256": "5902715da585cffc70174d5d1bc7269b90209d7e403a05c3380fce6cdcf5909b"
+      },
+      {
+        "package": "com.android.connectivity.resources",
+        "apk_path": "/apex/com.android.tethering/priv-app/ServiceConnectivityResources@UTT1.250214.001/ServiceConnectivityResources.apk",
+        "uid": "10080",
+        "is_third_party": false,
+        "sha256": "1d7d935b29d413bd76989cdd4639560e9bab6acfbb54411241a6cbcf7470f013"
+      },
+      {
+        "package": "com.android.proxyhandler",
+        "apk_path": "/system/priv-app/ProxyHandler/ProxyHandler.apk",
+        "uid": "10020",
+        "is_third_party": false,
+        "sha256": "8bc4e810135c2bb2ddba2bfa49671943bf67df4c31cc766e70289c8f714b5fd4"
+      },
+      {
+        "package": "com.google.android.packageinstaller",
+        "apk_path": "/system/priv-app/GooglePackageInstaller_tv/GooglePackageInstaller_tv.apk",
+        "uid": "10032",
+        "is_third_party": false,
+        "sha256": "6b4da4c453c3a2082ea62cea1a79e392a8be31bd7a5947e2a222281a3e558a2c"
+      },
+      {
+        "package": "com.google.android.onetimeinitializer",
+        "apk_path": "/product/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk",
+        "uid": "10058",
+        "is_third_party": false,
+        "sha256": "2c19be67595561c16bc97e99b9181f23bfc2d05129097a8115018f821787062c"
+      },
+      {
+        "package": "com.android.captiveportallogin",
+        "apk_path": "/system/app/CaptivePortalLogin/CaptivePortalLogin.apk",
+        "uid": "10039",
+        "is_third_party": false,
+        "sha256": "d4e1ad9fd0c05473041710e1ec564a66dfdf482192ff2ae375cef195bc08dc79"
+      },
+      {
+        "package": "com.google.android.tv.dfuservice",
+        "apk_path": "/data/app/~~hyCA-bRNy57SzKqaYIlNsw==/com.google.android.tv.dfuservice-QNCEe0XN3p8VaYZFw8xTjw==/base.apk",
+        "uid": "10105,1010105",
+        "is_third_party": false,
+        "sha256": "6c27c0122b5a3bfd37e8479df935279b26f77bd02a6b5988896cefebb3abf7aa"
+      },
+      {
+        "package": "com.android.settings.intelligence",
+        "apk_path": "/product/priv-app/SettingsIntelligence/SettingsIntelligence.apk",
+        "uid": "10050",
+        "is_third_party": false,
+        "sha256": "7739f6561fd35fc8c06cf52747f952cb5b10081ef33ad80e575cf0b94321c546"
+      },
+      {
+        "package": "com.jettv.player",
+        "apk_path": "/data/app/~~Dyjuf2qzCSjqPwiHWuQE0A==/com.jettv.player-hrjEoLct64GV_l0V0YXVzg==/base.apk",
+        "uid": "10013,1010013",
+        "is_third_party": false,
+        "sha256": "ab2f6d257f357710e7e323a185b7db95616566d093b0a8eee28a2796b6f62c59"
+      },
+      {
+        "package": "com.android.tv.settings.google.resoverlay",
+        "apk_path": "/product/overlay/TvSettingsGoogleResOverlay.apk",
+        "uid": "10002",
+        "is_third_party": false,
+        "sha256": "a1af74ea32e272cee6283c3fc8f71006f9747f7cb818cc2c089c2730435a7779"
+      },
+      {
+        "package": "com.trt.tabii.android",
+        "apk_path": "/data/app/~~7E7ToEwtd_3-nkBZpMqgGw==/com.trt.tabii.android-1V0xb6mCArnJm5PYc7nGkg==/base.apk",
+        "uid": "10049",
+        "is_third_party": true,
+        "sha256": "c5106f329ec03e02385980afb956f0b7f31f40d632e265261150ac95515622d7"
+      },
+      {
+        "package": "com.google.android.overlay.modules.ext.services",
+        "apk_path": "/product/overlay/GoogleExtServicesConfigOverlay.apk",
+        "uid": "10004",
+        "is_third_party": false,
+        "sha256": "32db74707166968603f1f0f6ccc6f37bcbab14e99d480b756b241044e7fb5348"
+      },
+      {
+        "package": "android.overlay.sdt.next",
+        "apk_path": "/product/overlay/SDTNEXTOverlay.apk",
+        "uid": "10001,1010001",
+        "is_third_party": false,
+        "sha256": "baee5a09ee5df261037c51e21171150bf3615baebd84228174f94057b35e736f"
+      },
+      {
+        "package": "com.android.providers.settings.overlay.common",
+        "apk_path": "/product/overlay/RtkCommonSettingsProviderOverlay.apk",
+        "uid": "10011",
+        "is_third_party": false,
+        "sha256": "dbe2e88fdf14fd11693b1d55696f3d268a70ac6e4f5e210035881d0662efb1d5"
+      },
+      {
+        "package": "com.sdt.providers.settings.overlay.common",
+        "apk_path": "/product/overlay/SdtGtvSettingsProviderOverlay.apk",
+        "uid": "10099,1010099",
+        "is_third_party": false,
+        "sha256": "0caa8f06dbb30e276f765dfc765002f598d14d55ed80f6413e7be9d456d61450"
+      },
+      {
+        "package": "com.android.tv.overlay.settingsprovider",
+        "apk_path": "/product/overlay/TvSettingsProviderOverlay.apk",
+        "uid": "10005",
+        "is_third_party": false,
+        "sha256": "d2cc96ed523ea072adce50c06d5e6e63cccb7fca081406fd81ef907b45af8dad"
+      },
+      {
+        "package": "com.android.vending",
+        "apk_path": "/data/app/~~uU-HcYzLg4cZxRlWwxNxfA==/com.android.vending-pQX3DqsHQ43SjtfsQ0ar8A==/base.apk",
+        "uid": "10060,1010060",
+        "is_third_party": false,
+        "sha256": "6baf75a8edb3a0bab2f9bee93d9957db21ae2b61f28919b0c9e35e635c2f6412"
+      },
+      {
+        "package": "com.google.android.inputmethod.latin",
+        "apk_path": "/data/app/~~cMUpPfkGT5g9TuKVwfOBSg==/com.google.android.inputmethod.latin-Bw0NfJ2nJUi3OwJzeNa8ig==/base.apk",
+        "uid": "10069,1010069",
+        "is_third_party": false,
+        "sha256": "0139c2e5b92cdd82c19fec676eb8e21b3eb06698fa72e9ff5927117b27cca327"
+      },
+      {
+        "package": "com.android.ondevicepersonalization.services",
+        "apk_path": "/apex/com.android.ondevicepersonalization/app/OnDevicePersonalization@UTT1.250214.001/OnDevicePersonalization.apk",
+        "uid": "10115,1010115",
+        "is_third_party": false,
+        "sha256": "c7273ef888f68d14f90e59c3f8753b98c8329d5c5771c1cd0fe8d94efda84186"
+      },
+      {
+        "package": "com.android.rkpdapp",
+        "apk_path": "/apex/com.android.rkpd/priv-app/rkpdapp@UTT1.250214.001/rkpdapp.apk",
+        "uid": "10117,1010117",
+        "is_third_party": false,
+        "sha256": "3b3ef95f3deae411c6a28162403a47530c6955aa3fe89862800b97c7ae620ff4"
+      },
+      {
+        "package": "com.android.pacprocessor",
+        "apk_path": "/system/app/PacProcessor/PacProcessor.apk",
+        "uid": "10043",
+        "is_third_party": false,
+        "sha256": "05e2501e48429481b7650fb92451fdf73eec7dfd79a4c664c8ece46129a9b76e"
+      },
+      {
+        "package": "com.google.android.overlay.modules.permissioncontroller",
+        "apk_path": "/product/overlay/GooglePermissionControllerOverlay.apk",
+        "uid": "10000",
+        "is_third_party": false,
+        "sha256": "395d04668366d4219f960e55a9af97a7f981bd00fc4b7a98c6c0b82ed769eaa6"
+      },
+      {
+        "package": "com.android.managedprovisioning",
+        "apk_path": "/system/priv-app/ManagedProvisioning/ManagedProvisioning.apk",
+        "uid": "10025",
+        "is_third_party": false,
+        "sha256": "85f7d29d46d6c55ca8b66e46f44ab23398eeb6a74b3e5ad814a43cc0af452e60"
+      },
+      {
+        "package": "com.android.systemui",
+        "apk_path": "/system_ext/priv-app/TvSystemUI/TvSystemUI.apk",
+        "uid": "10074",
+        "is_third_party": false,
+        "sha256": "c11c58ad93adea5aa5fcc37f3929eefeaf76fd0627f4d3dade06dc66f3d4c15d"
+      },
+      {
+        "package": "com.android.shell",
+        "apk_path": "/system/priv-app/Shell/Shell.apk",
+        "uid": "2000",
+        "is_third_party": false,
+        "sha256": "d25c1fdc99e37e8c947abad3a6baa862ad5d8531394b7c1fbc2d1e6c0d91092e"
+      },
+      {
+        "package": "com.android.providers.userdictionary",
+        "apk_path": "/system/priv-app/UserDictionaryProvider/UserDictionaryProvider.apk",
+        "uid": "10027",
+        "is_third_party": false,
+        "sha256": "40370cfffcc19f4e733d7e04432266a33bf7ae5d2a00c4d18a61f73e92b534fe"
+      },
+      {
+        "package": "com.netflix.tokenmanager",
+        "apk_path": "/system/priv-app/TokenManager/TokenManager.apk",
+        "uid": "10026",
+        "is_third_party": false,
+        "sha256": "a69320624ec7fde77c597cf7cae2084d7d09fc18f317e5e6e9fbe4f75a282e1c"
+      },
+      {
+        "package": "com.google.android.feedback",
+        "apk_path": "/system_ext/priv-app/GoogleFeedback/GoogleFeedback.apk",
+        "uid": "10072",
+        "is_third_party": false,
+        "sha256": "31208499475fba4c56d8716cc688656ebce92b3711764ace7f5ee272e926e843"
+      },
+      {
+        "package": "com.google.android.ext.shared",
+        "apk_path": "/system/app/GoogleExtShared/GoogleExtShared.apk",
+        "uid": "10038",
+        "is_third_party": false,
+        "sha256": "86e016f7810b43aa8c955303c7fec20f12565c6ac301b2473dfbb82280cc5f81"
+      },
+      {
+        "package": "com.android.cts.priv.ctsshim",
+        "apk_path": "/apex/com.android.apex.cts.shim/priv-app/CtsShimPriv@MASTER/CtsShimPriv.apk",
+        "uid": "10034",
+        "is_third_party": false,
+        "sha256": "06510bde86ac9e1bf8d40e317a10995d1fd98a91e9c09876bb475a0903803a51"
+      },
+      {
+        "package": "com.google.android.safetycenter.resources",
+        "apk_path": "/apex/com.android.permission/priv-app/GoogleSafetyCenterResources@360832280/GoogleSafetyCenterResources.apk",
+        "uid": "10116,1010116",
+        "is_third_party": false,
+        "sha256": "22be67b82abfc642a6ecf20b84ce1e50e6df33714f420772651bf91ed1aab960"
+      },
+      {
+        "package": "com.google.android.overlay.modules.permissioncontroller.forframework",
+        "apk_path": "/product/overlay/GooglePermissionControllerFrameworkOverlay.apk",
+        "uid": "10009",
+        "is_third_party": false,
+        "sha256": "df6b063d3e6e8e1faabbff0bdeb5e6e3f8c4e16d43e5767827bc691b3a0082dc"
+      },
+      {
+        "package": "com.realtek.tethering.overlay",
+        "apk_path": "/vendor/overlay/RtkTetheringOverlay.apk",
+        "uid": "10018",
+        "is_third_party": false,
+        "sha256": "234796d42fd9fdb63e3baf1972ab4dba3b03a306fef2eae96e0cfb1edf50c837"
+      },
+      {
+        "package": "com.sdt.ota",
+        "apk_path": "/system/priv-app/SdtUpdate/SdtUpdate.apk",
+        "uid": "10030",
+        "is_third_party": false,
+        "sha256": "390001401ae17550f3d1a2f27810e07417df28ec4a1985b65c6231772121b1bf"
+      },
+      {
+        "package": "com.dolby.android.audio.service",
+        "apk_path": "/system/app/DolbyAudioService/DolbyAudioService.apk",
+        "uid": "10048",
+        "is_third_party": false,
+        "sha256": "b82c8da04da998c941eb07ac39d2739ef4d2c33aeda89dadbfb67bc75b784348"
+      },
+      {
+        "package": "com.android.uwb.resources",
+        "apk_path": "/apex/com.android.uwb/priv-app/ServiceUwbResources@UTT1.250214.001/ServiceUwbResources.apk",
+        "uid": "10109,1010109",
+        "is_third_party": false,
+        "sha256": "abd6ff254a58d65542c9a8ddad1e6d2e31a93dac029c848e7b07abd800c9f5ab"
+      },
+      {
+        "package": "com.android.providers.media.module",
+        "apk_path": "/apex/com.android.mediaprovider/priv-app/MediaProvider@UTT1.250214.001/MediaProvider.apk",
+        "uid": "10082,1010082",
+        "is_third_party": false,
+        "sha256": "f5248490b22b21544f8c38af44524270a334b06141d1a75e1c60f3525c01914a"
+      },
+      {
+        "package": "com.google.android.tts",
+        "apk_path": "/data/app/~~vGHMuPVbUq_XNarTlWLBzw==/com.google.android.tts-KjAxkZwz-0OQS9EROLUeMQ==/base.apk",
+        "uid": "10066,1010066",
+        "is_third_party": false,
+        "sha256": "ad793276e078d35140232a6c39a2cabb3e2ace0c7f636ff3d980f8dcf5fc591c"
+      },
+      {
+        "package": "com.android.keychain",
+        "apk_path": "/system/app/KeyChain/KeyChain.apk",
+        "uid": "1000",
+        "is_third_party": false,
+        "sha256": "d194825cc8876ca35a6ada7a3b62e3b43ae3243f9e3b9cf4f551810bba869931"
+      },
+      {
+        "package": "com.android.providers.settings",
+        "apk_path": "/system/priv-app/SettingsProvider/SettingsProvider.apk",
+        "uid": "1000,1001000",
+        "is_third_party": false,
+        "sha256": "eb4f867753c98d822c78072623039fce64aa3dc04b3fa20baf633e7ea8ac89a1"
+      },
+      {
+        "package": "com.beonetv.tod",
+        "apk_path": "/data/app/~~lfOX8TAjsKiRwJmryfR_7A==/com.beonetv.tod-l4FWf6PyKA_UfoVJkHPOAQ==/base.apk",
+        "uid": "10008",
+        "is_third_party": true,
+        "sha256": "03bc8312af3668479e95848392ad98c786a292f535bc68a7853db9f5510fde3f"
+      },
+      {
+        "package": "com.sdt.gtv.tvsettings.overlay",
+        "apk_path": "/product/overlay/SdtGtvTvSettingsOverlay.apk",
+        "uid": "10097,1010097",
+        "is_third_party": false,
+        "sha256": "5cb4b2ac9ec39ed6f15c09c4aa0193153b8832c5bd8ab4040bd01644c1f6ad12"
+      },
+      {
+        "package": "com.android.certinstaller",
+        "apk_path": "/system/app/CertInstaller/CertInstaller.apk",
+        "uid": "10044",
+        "is_third_party": false,
+        "sha256": "556a89955a1cb94540e3c8e78a2812931dd7bc9282bb41f0a68e905f6b853894"
+      },
+      {
+        "package": "com.realtek.atv.axel.overlay",
+        "apk_path": "/vendor/overlay/RtkAtvAxelOverlay.apk",
+        "uid": "10100,1010100",
+        "is_third_party": false,
+        "sha256": "b7c777be9b62b3d348cfb0e13aeb74ec78d16fc33578ad5a85153b92dfc6996c"
+      },
+      {
+        "package": "com.realtek.wifi.resources.overlay",
+        "apk_path": "/vendor/overlay/RtkServiceWifiResources.apk",
+        "uid": "10102,1010102",
+        "is_third_party": false,
+        "sha256": "808a64a86a22f0ba05a19abe05d0494a8136e527079101767199507979a54d06"
+      },
+      {
+        "package": "com.android.sdksandbox",
+        "apk_path": "/apex/com.android.adservices/app/SdkSandbox@UTT1.250214.001/SdkSandbox.apk",
+        "uid": "10120,1010120",
+        "is_third_party": false,
+        "sha256": "bdafa0c75e9da62de6f9f8aa283a8178b3e5e811998f324f35ccd76a066a5248"
+      },
+      {
+        "package": "com.google.android.modulemetadata",
+        "apk_path": "/product/app/com.google.android.modulemetadata/com.google.android.modulemetadata.apk",
+        "uid": "10070",
+        "is_third_party": false,
+        "sha256": "80bd47230f175cdd2e97099c02e90c56bbecec052799b729ae27d36d8b69d6d1"
+      },
+      {
+        "package": "android.overlay.common",
+        "apk_path": "/product/overlay/RtkCommonFrameworkOverlay.apk",
+        "uid": "10007",
+        "is_third_party": false,
+        "sha256": "769f0163fe47e7ce3db8d06967b065dc21e9e2cbfd2479e01530b9bfc8944457"
+      },
+      {
+        "package": "com.android.dynsystem",
+        "apk_path": "/system/priv-app/DynamicSystemInstallationService/DynamicSystemInstallationService.apk",
+        "uid": "1000",
+        "is_third_party": false,
+        "sha256": "0d1e23d3983549d4ce266ce9a8cbf9dcd13ec673b0765777fec114adf7c4234a"
+      },
+      {
+        "package": "com.sdt.mecoolrcupair",
+        "apk_path": "/system/app/SdtRcuPair/SdtRcuPair.apk",
+        "uid": "1000,1001000",
+        "is_third_party": false,
+        "sha256": "649484ce42fe73e74c356b1453c5d06ef47da49e6728c7be029365ba785571eb"
+      },
+      {
+        "package": "com.android.dreams.basic",
+        "apk_path": "/system/app/BasicDreams/BasicDreams.apk",
+        "uid": "10042",
+        "is_third_party": false,
+        "sha256": "568704dbabddcc73b8e823346169bbb844f0447db696996d78833b1516dbd1f2"
+      },
+      {
+        "package": "com.sdt.producttest",
+        "apk_path": "/system/app/SdtProductTest/SdtProductTest.apk",
+        "uid": "1000",
+        "is_third_party": false,
+        "sha256": "3f072a9e96be5dfd51d13f5620ce47d72b186785636c78fc417868411bfd6ed6"
+      },
+      {
+        "package": "com.android.federatedcompute.services",
+        "apk_path": "/apex/com.android.ondevicepersonalization/app/FederatedCompute@UTT1.250214.001/FederatedCompute.apk",
+        "uid": "10114,1010114",
+        "is_third_party": false,
+        "sha256": "084c5b9630908e19793033a337994807b35d4b8b7150b183b417bd4da6a5a40d"
+      },
+      {
+        "package": "com.android.externalstorage",
+        "apk_path": "/system/priv-app/ExternalStorageProvider/ExternalStorageProvider.apk",
+        "uid": "10021,1010021",
+        "is_third_party": false,
+        "sha256": "f86ee44222b194e1a0fb019087b5e68367f9ee1789bf6ad021809f6ab5716b07"
+      },
+      {
+        "package": "com.google.android.overlay.modules.modulemetadata.forframework",
+        "apk_path": "/product/overlay/ModuleMetadataGoogleOverlay.apk",
+        "uid": "10006",
+        "is_third_party": false,
+        "sha256": "8545722e6c41c70f5b47c531788a0c9506fb605213c054b65d740c252d68422a"
+      },
+      {
+        "package": "android.autoinstalls.config.RTKSTBAndroid.device",
+        "apk_path": "/system_ext/app/SdtPlayAutoInstallStub/SdtPlayAutoInstallStub.apk",
+        "uid": "10075",
+        "is_third_party": false,
+        "sha256": "e777a7a75598fdd52b677f66d5f4885046c77d3d704ac0437bd681359b55f6aa"
+      },
+      {
+        "package": "com.android.cts.ctsshim",
+        "apk_path": "/apex/com.android.apex.cts.shim/app/CtsShim@MASTER/CtsShim.apk",
+        "uid": "10118,1010118",
+        "is_third_party": false,
+        "sha256": "c584f9f57f2ff4dd60c5dbe1cbfb2ad3eb420612f63af099389c77bb7480ac3e"
+      },
+      {
+        "package": "com.sdt.gtv.android.overlay",
+        "apk_path": "/product/overlay/SdtGtvAndroidOverlay.apk",
+        "uid": "10091,1010091",
+        "is_third_party": false,
+        "sha256": "1a1d6525fbe77a6e4580291592bb1ffbfa03114faa3fbca2f98c4e3f89a4140c"
+      },
+      {
+        "package": "com.google.android.apps.tv.launcherx",
+        "apk_path": "/data/app/~~zK8Ys-TqVZk-nKRQKBKxoQ==/com.google.android.apps.tv.launcherx-t1XxDHuPB3-jFqqdIR6hWQ==/base.apk",
+        "uid": "10057,1010057",
+        "is_third_party": false,
+        "sha256": "b645c375c70f0c6eea6be0eaa1a65bf82cde4b3611c56303449a97beb8c21690"
+      },
+      {
+        "package": "com.sdt.customization",
+        "apk_path": "/system/app/SdtGtvPartnerConfig/SdtGtvPartnerConfig.apk",
+        "uid": "10076",
+        "is_third_party": false,
+        "sha256": "4052d7cd4473858d121ae0d74eaa8c08adccfe65725a4abc07a5fbe396d9100b"
+      },
+      {
+        "package": "com.google.android.katniss",
+        "apk_path": "/data/app/~~tvCKbWoaiW27OdND7Ws_1Q==/com.google.android.katniss-lqn-SSWF3YumWFw36MqCXQ==/base.apk",
+        "uid": "10052",
+        "is_third_party": false,
+        "sha256": "8e6bdde667f22e5baf73961e21add4dc791eb6da3f3be39e152cb98700b5a440"
+      },
+      {
+        "package": "com.android.tv.settings.vendor.resoverlay",
+        "apk_path": "/product/overlay/TvSettingsVendorResOverlay.apk",
+        "uid": "10012",
+        "is_third_party": false,
+        "sha256": "20d0f11be7bfc586626a0b1c139052638fddf09d99e413e4d026a4fd8c52b1bd"
+      },
+      {
+        "package": "com.android.providers.contacts",
+        "apk_path": "/system/priv-app/ContactsProvider/ContactsProvider.apk",
+        "uid": "10027",
+        "is_third_party": false,
+        "sha256": "cad5f56af6ff70a3a20bd884269f2e4d80cbb1691ed8f7522db91bdfce1933f0"
+      },
+      {
+        "package": "com.sdt.backupappmanger",
+        "apk_path": "/oem/app/SdtBackUpAppManager.apk",
+        "uid": "1000,1001000",
+        "is_third_party": false,
+        "sha256": "6476dfdd9f463d5dc109fd681ed5e41d3e3b0a92c7ad431fb1ba887284a8fab1"
+      },
+      {
+        "package": "com.android.virtualmachine.res",
+        "apk_path": "/apex/com.android.virt/app/android.system.virtualmachine.res@UTT1.250214.001/android.system.virtualmachine.res.apk",
+        "uid": "10107,1010107",
+        "is_third_party": false,
+        "sha256": "1fe627410a64fda87b0fa0941639090c69e3421ef76a0e896edfb0795b668bef"
+      },
+      {
+        "package": "com.google.android.youtube.tv",
+        "apk_path": "/data/app/~~h13fsagznvocwoPbHEO_cQ==/com.google.android.youtube.tv-_PdTA0ttXeG6wfMQga1u2Q==/base.apk",
+        "uid": "10063",
+        "is_third_party": false,
+        "sha256": "b1d9a3db9929be5c659821bdd8c360c89b3a766fa9426db1a2b55266f80e6129"
+      },
+      {
+        "package": "com.android.printspooler",
+        "apk_path": "/system/app/PrintSpooler/PrintSpooler.apk",
+        "uid": "10046",
+        "is_third_party": false,
+        "sha256": "58a70a66687bfa1dbac74894b49081982b99ed3ce0ff737f550eafcfcce906be"
+      },
+      {
+        "package": "com.android.providers.media",
+        "apk_path": "/system/priv-app/MediaProviderLegacy/MediaProviderLegacy.apk",
+        "uid": "10033",
+        "is_third_party": false,
+        "sha256": "d6f8bc0a1bf504a2ffeb837f068ac8850e01150135a2a4896299d58883b8a347"
+      },
+      {
+        "package": "com.google.android.gsf",
+        "apk_path": "/system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk",
+        "uid": "10059,1010059",
+        "is_third_party": false,
+        "sha256": "12db6d2c530e8ed0c9057d13f0842fd3c923ff2d96c0882f57553a038a467514"
+      },
+      {
+        "package": "com.google.android.apps.tv.dreamx",
+        "apk_path": "/data/app/~~kmpM9x0ykZBPxRwLrCtJVg==/com.google.android.apps.tv.dreamx-HeoZvbIKGVL7os7MHVkmiQ==/base.apk",
+        "uid": "10056",
+        "is_third_party": false,
+        "sha256": "d9c5633a25933212c1ee6b037c7807db8b3a8cee7c7bbf420ec4cad9f84fbb9a"
+      },
+      {
+        "package": "com.oemservice",
+        "apk_path": "/system/priv-app/app_xcpe_preset/app_xcpe_preset.apk",
+        "uid": "1000",
+        "is_third_party": false,
+        "sha256": "7316469fd5b9fa633d9474a14b72716b9ceb4bbf656725ab79409da608eda2be"
+      },
+      {
+        "package": "com.android.statementservice",
+        "apk_path": "/system/priv-app/StatementService/StatementService.apk",
+        "uid": "10029",
+        "is_third_party": false,
+        "sha256": "e1a77131475036c921dcc20721afce388ef9c11762267fc728de7279b9cdaa52"
+      },
+      {
+        "package": "com.google.android.youtube.tvmusic",
+        "apk_path": "/data/app/~~AiIF-y-QMzJT6IsmnWpIag==/com.google.android.youtube.tvmusic-OwUrgF4XrVpYqmqgkAyRTg==/base.apk",
+        "uid": "10065",
+        "is_third_party": false,
+        "sha256": "b907ec6dbb1ee4ac17a0af3a9eaf95f60a7a932245965fa546c1f8191f98fd7e"
+      },
+      {
+        "package": "com.google.android.syncadapters.calendar",
+        "apk_path": "/product/app/GoogleCalendarSyncAdapter/GoogleCalendarSyncAdapter.apk",
+        "uid": "10061",
+        "is_third_party": false,
+        "sha256": "a5227af895372d7cbe084a786d8a80f9bf9ae9678604b52b70b2b780a3bed70a"
+      },
+      {
+        "package": "com.android.tv.frameworkpackagestubs",
+        "apk_path": "/system_ext/app/TvFrameworkPackageStubs/TvFrameworkPackageStubs.apk",
+        "uid": "10077",
+        "is_third_party": false,
+        "sha256": "ec8a12f8d142d2018f24bcc66cb88026beff5a663608716bd2217baf3cbf701a"
+      },
+      {
+        "package": "com.tcl.browser",
+        "apk_path": "/data/app/~~t4CClk35OisihNQ0B-ee4A==/com.tcl.browser-L85chP6djqMg4XCNLyKunA==/base.apk",
+        "uid": "10085",
+        "is_third_party": true,
+        "sha256": "d610f06a8d849b5e86d1d5030568f0fab7ddc5729e680605b557272fdca99cce"
+      },
+      {
+        "package": "com.google.android.play.games",
+        "apk_path": "/data/app/~~5rRSUz2lhZFptys3D7KsEQ==/com.google.android.play.games-XekTKzg-8porcWE3rPaD6w==/base.apk",
+        "uid": "10068",
+        "is_third_party": false,
+        "sha256": "3e1e0ff3add7bf34862925ffe61eaa975cb3f33a25901a5d4ba800b0501e56f1"
+      },
+      {
+        "package": "com.google.android.overlay.gtvsconfigx",
+        "apk_path": "/product/overlay/GTVSConfigOverlayX.apk",
+        "uid": "10003",
+        "is_third_party": false,
+        "sha256": "154ad92fa2dd41ec956a198f1a241d13dd1c5551b81765bf36ebd8876ff628f2"
+      },
+      {
+        "package": "com.android.se",
+        "apk_path": "/system/app/SecureElement/SecureElement.apk",
+        "uid": "1068",
+        "is_third_party": false,
+        "sha256": "d3d9c6f519428edd9c7e8a72245231c1beab75846f51ebece9464983d6182207"
+      },
+      {
+        "package": "com.google.android.marvin.talkback",
+        "apk_path": "/data/app/~~0IyGUgcmiM7SxPZCS_WBcQ==/com.google.android.marvin.talkback-RxlwKJ8peYs7csCPdeGMrA==/base.apk",
+        "uid": "10055",
+        "is_third_party": false,
+        "sha256": "67431603f10f0749c855b5f8874742b003be4b563d97742c05045752bb596c09"
+      },
+      {
+        "package": "com.android.tv.feedbackconsent",
+        "apk_path": "/system_ext/priv-app/TvFeedbackConsent/TvFeedbackConsent.apk",
+        "uid": "1000,1001000",
+        "is_third_party": false,
+        "sha256": "041aaafa87d90338b16402f7459244ec1db4620386f84b49d21235b9de129368"
+      },
+      {
+        "package": "com.realtek.ui_1080.frameworkoverlay",
+        "apk_path": "/product/overlay/RtkCommonFrameworkOverlay_UI_1080P.apk",
+        "uid": "10095,1010095",
+        "is_third_party": false,
+        "sha256": "5b67f57fe4d7ddcabf398e8b718469333323f2fabf3c326751a0dced99356387"
+      },
+      {
+        "package": "com.wbd.stream",
+        "apk_path": "/data/app/~~79JMF1s1UgV-XpNapdPQFw==/com.wbd.stream-npkh3femcCR9YuYrI_gC5Q==/base.apk",
+        "uid": "10084",
+        "is_third_party": true,
+        "sha256": "43eb41135dafd16f974bff994fe7a088c3dd229a1be9df7e7a14a2ccf46ae030"
+      },
+      {
+        "package": "com.next.iptv",
+        "apk_path": "/oem/app/NextIPTV.apk",
+        "uid": "10045,1010045",
+        "is_third_party": false,
+        "sha256": "c1f33f299f8983c790fcfccb100c72a4fb7c3b1345615f02d6342de8f4a88987"
+      },
+      {
+        "package": "com.android.devicelockcontroller",
+        "apk_path": "/apex/com.android.devicelock/priv-app/DeviceLockController@UTT1.250214.001/DeviceLockController.apk",
+        "uid": "10108,1010108",
+        "is_third_party": false,
+        "sha256": "c6600c18b4ed8d16c0c172fdec41d5abdda8a716e4670a81d3993f2c56129f33"
+      },
+      {
+        "package": "com.android.networkstack.tethering",
+        "apk_path": "/apex/com.android.tethering/priv-app/TetheringNext@UTT1.250214.001/TetheringNext.apk",
+        "uid": "1073,1001073",
+        "is_third_party": false,
+        "sha256": "4b0172443294e0f6cc3646c955808140c418f56ad8dec68648e46b96b629e88a"
+      },
+      {
+        "package": "com.android.nearby.halfsheet",
+        "apk_path": "/apex/com.android.tethering/app/HalfSheetUX@UTT1.250214.001/HalfSheetUX.apk",
+        "uid": "10113,1010113",
+        "is_third_party": false,
+        "sha256": "6e6e89fd80a72bd15ce0128cd006f4109929be0363aec1665f19602e6340fb96"
+      },
+      {
+        "package": "com.android.hotspot2.osulogin",
+        "apk_path": "/apex/com.android.wifi/app/OsuLogin@UTT1.250214.001/OsuLogin.apk",
+        "uid": "10079",
+        "is_third_party": false,
+        "sha256": "b22dfe9281df7e9e9793246e8553bb95a6aa47baf558b4e6dea457fcb750fd42"
+      },
+      {
+        "package": "com.google.android.partnersetup",
+        "apk_path": "/system_ext/priv-app/GooglePartnerSetup/GooglePartnerSetup.apk",
+        "uid": "10073",
+        "is_third_party": false,
+        "sha256": "62cdbc8696d0afd806116e323c0c77085c58c6ffb57959c1380b3076e172f9aa"
+      },
+      {
+        "package": "com.android.wifi.dialog",
+        "apk_path": "/apex/com.android.wifi/app/WifiDialog@UTT1.250214.001/WifiDialog.apk",
+        "uid": "10110,1010110",
+        "is_third_party": false,
+        "sha256": "ef074057e1bad4f87e168b258a82ebdef4a41c1e2a83e18b215d70917264fcd6"
+      },
+      {
+        "package": "com.android.tv.overlay.wifi.resources",
+        "apk_path": "/product/overlay/TvWifiOverlay.apk",
+        "uid": "10096,1010096",
+        "is_third_party": false,
+        "sha256": "583a30692014e09593c8978bc9e24b22357e6732d29efe4b7330ac54128e84e5"
+      },
+      {
+        "package": "com.android.backupconfirm",
+        "apk_path": "/system/priv-app/BackupRestoreConfirmation/BackupRestoreConfirmation.apk",
+        "uid": "10024",
+        "is_third_party": false,
+        "sha256": "ec373d20d882b1207e8f497c6bc80c7293e6cb651113f42e0045090d1b4181d6"
+      },
+      {
+        "package": "com.android.adservices.api",
+        "apk_path": "/apex/com.android.adservices/priv-app/AdServicesApk@UTT1.250214.001/AdServicesApk.apk",
+        "uid": "10119,1010119",
+        "is_third_party": false,
+        "sha256": "ef502bc394175b59432b11aa8c1315018bd3c7bed59ef25bbf13f46c5dcaa057"
+      },
+      {
+        "package": "com.google.android.ext.services",
+        "apk_path": "/apex/com.android.extservices/priv-app/GoogleExtServices@360840080/GoogleExtServices.apk",
+        "uid": "10083",
+        "is_third_party": false,
+        "sha256": "f45560d2ff21e50f5e5a3410d0f27b66ec447d859af676d49b07c43070f09394"
+      },
+      {
+        "package": "com.google.android.webview",
+        "apk_path": "/data/app/~~-30zeTyDxfmoeT6u3v-hvg==/com.google.android.webview-mX7JSUg8q7mMCCE598k1xA==/base.apk",
+        "uid": "10064,1010064",
+        "is_third_party": false,
+        "sha256": "b05a1fae6083df75ece529d1cdca5eeefdca890df885ca0a79ec1e59a4be31e2"
+      },
+      {
+        "package": "com.android.location.fused",
+        "apk_path": "/system/priv-app/FusedLocation/FusedLocation.apk",
+        "uid": "1000",
+        "is_third_party": false,
+        "sha256": "0e11cfa75739d8523c5fc812444b85d78a0ab9534d414f8a38322f3549c637d2"
+      },
+      {
+        "package": "com.android.wallpaperbackup",
+        "apk_path": "/system/app/WallpaperBackup/WallpaperBackup.apk",
+        "uid": "1000",
+        "is_third_party": false,
+        "sha256": "05e19d56d38c4b12d87d1b9d17118320426054c0fcdc759a25146b293437fd66"
+      },
+      {
+        "package": "com.android.tv.overlay.networkstack",
+        "apk_path": "/product/overlay/TvNetworkStackOverlay.apk",
+        "uid": "10098,1010098",
+        "is_third_party": false,
+        "sha256": "7e253efda52413d8105c31bc926fe88497884d3f4271d19d9a23e7806044a4a4"
+      },
+      {
+        "package": "com.realtek.slices",
+        "apk_path": "/system_ext/priv-app/RtkTvSettingsSliceProvider/RtkTvSettingsSliceProvider.apk",
+        "uid": "1000,1001000",
+        "is_third_party": false,
+        "sha256": "0537f29e86ad0b181496b7ac7c8433840bfeb29190ef15a8e8342d3772fedc49"
+      },
+      {
+        "package": "com.google.android.gms",
+        "apk_path": "/data/app/~~vXi2FWPCFIe76pahLPKTBA==/com.google.android.gms-gXFM5og-t4wPD2TFeLldMQ==/base.apk",
+        "uid": "10059,1010059",
+        "is_third_party": false,
+        "sha256": "17d90b63416c19c9e01fe9c001151c33216a09670b49236cf89a62b9c0aae7a4"
+      },
+      {
+        "package": "com.google.android.videos",
+        "apk_path": "/data/app/~~-Ux_ATOs2Mq-hu_KJ4Qvyw==/com.google.android.videos-S2gkbXTllEPL8tjbUeQMcg==/base.apk",
+        "uid": "10071,1010071",
+        "is_third_party": true,
+        "sha256": "23b3351c8829a9bac963c1d4dd90d9e22101d7ee38138a639db717bc61ab7d11"
+      },
+      {
+        "package": "com.kick.mobile",
+        "apk_path": "/data/app/~~MSHL2PpxFwHH1j68LM7kuQ==/com.kick.mobile-hpxKJWErhsP_uBL61ppMcQ==/base.apk",
+        "uid": "10094",
+        "is_third_party": true,
+        "sha256": "912e3187f78d412fcd160174378eb1b34c4aaff1e5a46055b2092f6bacb28c9a"
+      },
+      {
+        "package": "com.android.htmlviewer",
+        "apk_path": "/system/app/HTMLViewer/HTMLViewer.apk",
+        "uid": "10040",
+        "is_third_party": false,
+        "sha256": "6c41071f114c1695fbeeecf2e68deb4e67523d0ae6b729d1ff95a04269d48c76"
+      },
+      {
+        "package": "com.google.android.overlay.gtvssettingsprovider",
+        "apk_path": "/product/overlay/GTVSSettingsProviderOverlayX.apk",
+        "uid": "10015",
+        "is_third_party": false,
+        "sha256": "1bb2a201c0b6dc549dc7b9d7a61e4d228ddea002cb23840722df5febc991eca3"
+      },
+      {
+        "package": "com.google.android.overlay.googlewebview",
+        "apk_path": "/product/overlay/GoogleWebViewOverlay.apk",
+        "uid": "10016,1010016",
+        "is_third_party": false,
+        "sha256": "88ba05debbc966bfd3fa92c40ef5910aa57aa6b837a28a138a8d41e846229e4b"
+      },
+      {
+        "package": "com.sdt.globalkey.overlay",
+        "apk_path": "/vendor/overlay/SdtGlobalKeyOverlay.apk",
+        "uid": "10101,1010101",
+        "is_third_party": false,
+        "sha256": "61415c58ba8b6dc98b599b36f33c7dbf94a23d1ffda95f45c8acce3740e0b0cc"
+      },
+      {
+        "package": "com.oem.qa",
+        "apk_path": "/system/priv-app/BoxFactoryTest_preset/BoxFactoryTest_preset.apk",
+        "uid": "1000",
+        "is_third_party": false,
+        "sha256": "7b57a4ea461cbef66c258afc10efcb5fa3802e93c6f6b6765aed3043cb12eaaf"
+      },
+      {
+        "package": "com.digiturk.iq.mobil",
+        "apk_path": "/data/app/~~gR8wyMA9B27fQ7ZlIPP6Iw==/com.digiturk.iq.mobil-Zu6dHdtlOH27C850rGYHLg==/base.apk",
+        "uid": "10090",
+        "is_third_party": true,
+        "sha256": "1127e35e931c148e90baebaa69a3cc0b9e41d4bb2df45e91e2d7203bdbc8fc05"
+      },
+      {
+        "package": "com.amazon.amazonvideo.livingroom",
+        "apk_path": "/data/app/~~g3zptK3PZciCPcHWzzIrBg==/com.amazon.amazonvideo.livingroom-nQ5OSjo04N1FnL9q0v3iPw==/base.apk",
+        "uid": "10047",
+        "is_third_party": false,
+        "sha256": "2267f0f24dd5ca3bf275302f9faf7350cdd20ef1b574cdb527c1893ab5af76b2"
+      },
+      {
+        "package": "com.android.providers.tv",
+        "apk_path": "/system/priv-app/TvProvider/TvProvider.apk",
+        "uid": "10022,1010022",
+        "is_third_party": false,
+        "sha256": "0d6b1ce5fb9b5643365908899a1f56b08fbd57ab99d0cc718ef0bd72c9989391"
+      },
+      {
+        "package": "com.google.android.tv.remote.service",
+        "apk_path": "/data/app/~~6EbI8uhTzKJuTasraOoiTw==/com.google.android.tv.remote.service-Bt5emFnJykkbfxsDNibaKA==/base.apk",
+        "uid": "10051",
+        "is_third_party": false,
+        "sha256": "20c12f4a42d64947b0105c59069e0157f4e2752a732fe029a7b24cf7ea58c16c"
+      },
+      {
+        "package": "com.android.tv.overlay.framework",
+        "apk_path": "/product/overlay/TvFrameworkOverlay.apk",
+        "uid": "10092,1010092",
+        "is_third_party": false,
+        "sha256": "6181ac63d01313f5f668e961af76746f5e11e93cc6cf7b3fb645491b74f81f11"
+      },
+      {
+        "package": "com.google.android.tungsten.setupwraith",
+        "apk_path": "/data/app/~~lHuxGsnLpMr_H7qepvH81Q==/com.google.android.tungsten.setupwraith-7_Nb-Z56vWgxUo84NUggGQ==/base.apk",
+        "uid": "10053",
+        "is_third_party": false,
+        "sha256": "f378afbbf85a323c8c3220dd69cbad57d34eab676f77bb0659581b38181fe20a"
+      },
+      {
+        "package": "com.android.companiondevicemanager",
+        "apk_path": "/system/app/CompanionDeviceManager/CompanionDeviceManager.apk",
+        "uid": "10037",
+        "is_third_party": false,
+        "sha256": "77f882ae5aba5bc17441ec488f81cc0f00268b6a5410243a89e3da9657308c41"
+      },
+      {
+        "package": "com.sdt.globalkey",
+        "apk_path": "/system/priv-app/SdtGlobalKeyHandler/SdtGlobalKeyHandler.apk",
+        "uid": "1000,1001000",
+        "is_third_party": false,
+        "sha256": "35a7252f4fa5f2ee7c7b07050322390ef87abb66146989101160d3cee52d19e5"
+      },
+      {
+        "package": "com.google.android.apps.mediashell",
+        "apk_path": "/product/priv-app/AndroidMediaShell/AndroidMediaShell.apk",
+        "uid": "10054",
+        "is_third_party": false,
+        "sha256": "6aee5e47a48518badfb52df68aa343e3571aefbbd8a4cf5d176676d64ae5d303"
+      },
+      {
+        "package": "com.android.tv.settings.rtk.resoverlay",
+        "apk_path": "/product/overlay/RTKTvSettingsOverlay.apk",
+        "uid": "10017",
+        "is_third_party": false,
+        "sha256": "828735f37f9271f421838b88a3f6278e70367fec2f6975614a0e6d2b5daf9862"
+      },
+      {
+        "package": "com.android.intentresolver",
+        "apk_path": "/system/priv-app/IntentResolver/IntentResolver.apk",
+        "uid": "10103,1010103",
+        "is_third_party": false,
+        "sha256": "1e1ad3ca3716e71b411dde357f58d9019d19fa55a022a98f14b769d4a9fae4fd"
+      },
+      {
+        "package": "com.netflix.ninja",
+        "apk_path": "/data/app/~~iMjNn_rP10rzC1dwDxLvZg==/com.netflix.ninja-FULUhACXbwXhsU1CN-mj1w==/base.apk",
+        "uid": "10041",
+        "is_third_party": false,
+        "sha256": "8111b0365cbd7e40e22e0fa401bb5deda0689634f519e12a660c6cdfb6e8bbec"
+      },
+      {
+        "package": "com.android.providers.calendar",
+        "apk_path": "/system/priv-app/CalendarProvider/CalendarProvider.apk",
+        "uid": "10035",
+        "is_third_party": false,
+        "sha256": "0a5dd00a14413211bafa802db5c787b88ae6d8ca440b4b696686130fb7cde49e"
+      },
+      {
+        "package": "com.android.bluetooth",
+        "apk_path": "/apex/com.android.btservices/app/Bluetooth@UTT1.250214.001/Bluetooth.apk",
+        "uid": "1002",
+        "is_third_party": false,
+        "sha256": "7a3e75dff3514c713561376e2726eb81ff82275e8d0cf7ad634b288b68a2db10"
+      },
+      {
+        "package": "com.sdt.deviceinfo",
+        "apk_path": "/system/app/SdtDeviceInfo/SdtDeviceInfo.apk",
+        "uid": "1000",
+        "is_third_party": false,
+        "sha256": "08c6d95f47797524af07f0a53338f1713b8a02f2724ea318eef866819a9174fa"
+      },
+      {
+        "package": "android",
+        "apk_path": "/system/framework/framework-res.apk",
+        "uid": "1000,1001000",
+        "is_third_party": false,
+        "sha256": "bdcc3988301ea12340c8f5953e3d4aec3be1ecb0d7893d2c06122c24aa4709e6"
+      },
+      {
+        "package": "com.realtek.gsi.tethering.overlay",
+        "apk_path": "/vendor/overlay/RtkGSITetheringOverlay.apk",
+        "uid": "10019",
+        "is_third_party": false,
+        "sha256": "916a1a148e51875fa234e9728ef98836db06b7fa42b9eb43c36a7e9cc3153eaf"
+      },
+      {
+        "package": "com.sdt.frontpanelledsservice",
+        "apk_path": "/system/app/SdtFrontPanelLedsService/SdtFrontPanelLedsService.apk",
+        "uid": "1000",
+        "is_third_party": false,
+        "sha256": "5bebbc6556aef09da97fdba3309817e24b03d6fb8984e9540800593fe056469f"
+      },
+      {
+        "package": "com.sdt.android.overlay",
+        "apk_path": "/product/overlay/SdtAndroidOverlay.apk",
+        "uid": "10010",
+        "is_third_party": false,
+        "sha256": "31cb47c48948e5ade5d5d0e224e0582dfbbb3bb7e230e25e1a753738ce7203b8"
+      },
+      {
+        "package": "com.android.tv.settings",
+        "apk_path": "/system_ext/priv-app/TvSettingsTwoPanel/TvSettingsTwoPanel.apk",
+        "uid": "1000,1001000",
+        "is_third_party": false,
+        "sha256": "83bc6dfb52b5013372468053605ab7712c48eb2c8f37aaef516e63115be28596"
+      },
+      {
+        "package": "com.google.android.tv.axel",
+        "apk_path": "/system/priv-app/axel/axel.apk",
+        "uid": "10023",
+        "is_third_party": false,
+        "sha256": "0e40b9037b0980a6cd0f317da8315fc3bf039f4b8b7719249ce1551e07ba7bb4"
+      },
+      {
+        "package": "com.android.sharedstoragebackup",
+        "apk_path": "/system/priv-app/SharedStorageBackup/SharedStorageBackup.apk",
+        "uid": "10031",
+        "is_third_party": false,
+        "sha256": "7d70e83c645eb1bfaa20ac249713df5d1a21f449030a2a23626ab2579aeb8bee"
+      },
+      {
+        "package": "com.android.vpndialogs",
+        "apk_path": "/system/priv-app/VpnDialogs/VpnDialogs.apk",
+        "uid": "10028",
+        "is_third_party": false,
+        "sha256": "fb00e50a548cad55639f3ab176bf04739d0fe38bc6ae358086f73eaf94b1d4b1"
+      },
+      {
+        "package": "tv.twitch.android.app",
+        "apk_path": "/data/app/~~8Axhyj0RuOUT17QCcDUO6Q==/tv.twitch.android.app-clt9qulPr7pkWAfn9tFDOg==/base.apk",
+        "uid": "10093",
+        "is_third_party": true,
+        "sha256": "8e38eab8534090b9768718fd24803d36141bf2e3ead08b1c7336f838d0dc7488"
+      },
+      {
+        "package": "com.android.health.connect.backuprestore",
+        "apk_path": "/apex/com.android.healthfitness/app/HealthConnectBackupRestore@UTT1.250214.001/HealthConnectBackupRestore.apk",
+        "uid": "10112,1010112",
+        "is_third_party": false,
+        "sha256": "b81b793d7ac823a58ea3e828f38d4b7374b3428dc44cc684644d4ea8680c89a1"
+      },
+      {
+        "package": "com.android.localtransport",
+        "apk_path": "/system/priv-app/LocalTransport/LocalTransport.apk",
+        "uid": "1000",
+        "is_third_party": false,
+        "sha256": "b3b5abb89dddd66d6e6c4ddaf229cae45df8b6e1445d249690f158fd5d521356"
+      },
+      {
+        "package": "com.android.healthconnect.controller",
+        "apk_path": "/apex/com.android.healthfitness/priv-app/HealthConnectController@UTT1.250214.001/HealthConnectController.apk",
+        "uid": "10111,1010111",
+        "is_third_party": false,
+        "sha256": "00efc626c380945d201ba14af616c5235df23e8621a5ab5a68c0064dde4d7dd2"
+      },
+      {
+        "package": "com.rtk.partnerinterface",
+        "apk_path": "/system/app/RtkPartnerInterface/RtkPartnerInterface.apk",
+        "uid": "1000",
+        "is_third_party": false,
+        "sha256": "f5ae15aef7f64fb590c353920b60dd6c0e6e6ef835c0b2474fad435fcc6f5f5e"
+      },
+      {
+        "package": "com.android.tv.settings.gms.resoverlay",
+        "apk_path": "/product/overlay/TvSettingsGmsResOverlay.apk",
+        "uid": "10014",
+        "is_third_party": false,
+        "sha256": "b6a20c7e4c25418e8281c15a4e807a5260c36d6a73569076711343988a4fe043"
+      },
+      {
+        "package": "com.android.inputdevices",
+        "apk_path": "/system/priv-app/InputDevices/InputDevices.apk",
+        "uid": "1000",
+        "is_third_party": false,
+        "sha256": "6acd0644655084eb26af6c0ce5e2f3665f09291f23d2ea366e181fdf8417729c"
+      },
+      {
+        "package": "com.next.roket",
+        "apk_path": "/oem/app/com.next.roket.apk",
+        "uid": "10036,1010036",
+        "is_third_party": false,
+        "sha256": "e8239d935edde2cb9da8330a53d708d94dcba66ce887223aad55d9a019b97386"
+      },
+      {
+        "package": "com.android.cameraextensions",
+        "apk_path": "/system/app/CameraExtensionsProxy/CameraExtensionsProxy.apk",
+        "uid": "10104,1010104",
+        "is_third_party": false,
+        "sha256": "030a498ff9a37de6e6fb40dab710435927c36b5f7ebf3b3d64ddd28950a7ea22"
+      },
+      {
+        "package": "com.android.networkstack",
+        "apk_path": "/system/priv-app/NetworkStackNext/NetworkStackNext.apk",
+        "uid": "1073,1001073",
+        "is_third_party": false,
+        "sha256": "948b7a28f76b613a619ec9a00f1a98c53555bc9729b142e54b48df19d1b11b1b"
+      },
+      {
+        "package": "com.android.providers.downloads",
+        "apk_path": "/system/priv-app/DownloadProvider/DownloadProvider.apk",
+        "uid": "10033,1010033",
+        "is_third_party": false,
+        "sha256": "49987fe7b8193b81dc252a5595cb3173c6178eb727e38ba28a5997e68bb812d1"
+      }
+    ]
+  }
+}

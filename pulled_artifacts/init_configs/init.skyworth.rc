@@ -1,0 +1,28 @@
+
+on property:ro.boot.securebootstate=*
+    setprop ro.vendor.skyworthdigital.securebootstate ${ro.boot.securebootstate}
+
+on property:ro.boot.skyworthdigital.soc.chipid=*
+    setprop ro.hardware.skyworthdigital.soc.chipid ${ro.boot.skyworthdigital.soc.chipid}
+
+on property:ro.virtual_ab.enabled=*
+    setprop ro.vendor.skyworthdigital.virtual_ab.enabled ${ro.virtual_ab.enabled}
+
+on property:ro.boot.netflix.modelgroup=*
+    setprop ro.vendor.nrdp.modelgroup ${ro.boot.netflix.modelgroup}
+
+on property:ro.boot.netflix.oemmodel=*
+    setprop ro.vendor.nrdp.oemmodel ${ro.boot.netflix.oemmodel}
+
+on property:ro.boot.skyworthdigital.bootloader.version=*
+    setprop ro.vendor.skyworthdigital.bootloader.version ${ro.boot.skyworthdigital.bootloader.version}
+
+on boot
+    # for key wirte / clear
+    wait /sys/devices/platform/gpioleds/leds/sys_led/brightness
+    chmod 0777 /sys/devices/platform/gpioleds/leds/sys_led/brightness
+    chmod 0777 /sys/devices/platform/gpioleds/leds/green_led/brightness
+    chmod 0777 /sys/devices/platform/gpioleds/leds/red_led/brightness
+    chmod 0777 /sys/devices/platform/gpioleds/leds/net_red_led/brightness
+    chmod 0777 /sys/devices/platform/gpioleds/leds/net_green_led/brightness
+    chmod 0777 /sys/devices/platform/gpioleds/leds/ir_led/brightness

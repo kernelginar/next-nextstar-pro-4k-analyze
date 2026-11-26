@@ -1,0 +1,162 @@
+{
+  "collected_at_utc": "2026-11-25T11:42:29.052712+00:00",
+  "device_serial": "90094381518171",
+  "data": {
+    "data_apps__base": {
+      "scanned_files": 3049,
+      "network_ioc_hits": {},
+      "behavioral_hits": {
+        "surfacecontrol": [
+          "sources\\defpackage\\dn0.java",
+          "sources\\defpackage\\za.java"
+        ]
+      }
+    },
+    "oem_apps__com.next.roket": {
+      "scanned_files": 1843,
+      "network_ioc_hits": {},
+      "behavioral_hits": {}
+    },
+    "oem_apps__JetTV": {
+      "scanned_files": 3306,
+      "network_ioc_hits": {},
+      "behavioral_hits": {
+        "surfacecontrol": [
+          "sources\\defpackage\\cm0.java",
+          "sources\\defpackage\\za.java"
+        ]
+      }
+    },
+    "oem_apps__NextIPTV": {
+      "scanned_files": 8166,
+      "network_ioc_hits": {},
+      "behavioral_hits": {
+        "packageinstaller": [
+          "sources\\h7\\e.java"
+        ],
+        "surfacecontrol": [
+          "sources\\a1\\c.java",
+          "sources\\com\\next\\iptv\\h.java"
+        ]
+      }
+    },
+    "oem_apps__SdtBackUpAppManager": {
+      "scanned_files": 4762,
+      "network_ioc_hits": {},
+      "behavioral_hits": {
+        "surfacecontrol": [
+          "sources\\ab\\b.java",
+          "sources\\com\\android\\systemui\\SystemUIApplication.java",
+          "sources\\com\\android\\systemui\\shared\\navigationbar\\RegionSamplingHelper.java",
+          "sources\\com\\android\\systemui\\shared\\recents\\IOverviewProxy.java",
+          "sources\\com\\android\\wm\\shell\\common\\split\\DividerView.java",
+          "sources\\com\\android\\wm\\shell\\onehanded\\OneHandedAnimationController.java",
+          "sources\\com\\android\\wm\\shell\\onehanded\\a.java",
+          "sources\\com\\android\\wm\\shell\\pip\\IPip.java",
+          "sources\\com\\android\\wm\\shell\\pip\\phone\\PipDismissTargetHandler.java",
+          "sources\\com\\android\\wm\\shell\\taskview\\TaskView.java",
+          "sources\\com\\android\\wm\\shell\\taskview\\a.java",
+          "sources\\com\\sdt\\backupappmanger\\QuickstepService.java",
+          "sources\\l6\\b.java"
+        ]
+      }
+    },
+    "system_apps__RtkPartnerInterface": {
+      "scanned_files": 25,
+      "network_ioc_hits": {},
+      "behavioral_hits": {}
+    },
+    "system_apps__SdtDeviceInfo": {
+      "scanned_files": 1122,
+      "network_ioc_hits": {},
+      "behavioral_hits": {
+        "dexclassloader": [
+          "sources\\g1\\a.java"
+        ]
+      }
+    },
+    "system_apps__SdtFrontPanelLedsService": {
+      "scanned_files": 1950,
+      "network_ioc_hits": {},
+      "behavioral_hits": {}
+    },
+    "system_apps__SdtGtvPartnerConfig": {
+      "scanned_files": 26,
+      "network_ioc_hits": {},
+      "behavioral_hits": {}
+    },
+    "system_apps__SdtProductTest": {
+      "scanned_files": 6047,
+      "network_ioc_hits": {},
+      "behavioral_hits": {
+        "dexclassloader": [
+          "sources\\com\\sdt\\cmd_handle\\manager\\hdcp\\platform\\AmlHdcpHelper.java",
+          "sources\\com\\sdt\\cmd_handle\\manager\\hdcp\\platform\\RtdHdcpHelper.java",
+          "sources\\com\\sdt\\hdcp\\PlatformManager.java"
+        ],
+        "packageinstaller": [
+          "sources\\com\\sdt\\cmd_handle\\logic\\LogicApkManager.java"
+        ],
+        "sendkeydownupsync": [
+          "sources\\com\\sdt\\cmd_handle\\logic\\LogicApkManager.java"
+        ]
+      }
+    },
+    "system_apps__SdtRcuPair": {
+      "scanned_files": 753,
+      "network_ioc_hits": {},
+      "behavioral_hits": {}
+    },
+    "system_priv_apps__app_xcpe_preset": {
+      "scanned_files": 9,
+      "network_ioc_hits": {},
+      "behavioral_hits": {
+        "com.oemservice": [
+          "resources\\AndroidManifest.xml",
+          "sources\\com\\oemservice\\BuildConfig.java",
+          "sources\\com\\oemservice\\R.java",
+          "sources\\x\\cpe\\UpgradeService.java",
+          "sources\\x\\cpe\\receiver\\BootReceiver.java"
+        ],
+        "packageinstaller": [
+          "sources\\x\\cpe\\UpgradeService.java"
+        ],
+        "persist.sys.cpe": [
+          "sources\\x\\cpe\\receiver\\BootReceiver.java"
+        ],
+        "x.cpe": [
+          "resources\\AndroidManifest.xml",
+          "sources\\x\\cpe\\UpgradeService.java",
+          "sources\\x\\cpe\\receiver\\BootReceiver.java"
+        ]
+      }
+    },
+    "system_priv_apps__BoxFactoryTest_preset": {
+      "scanned_files": 442,
+      "network_ioc_hits": {},
+      "behavioral_hits": {
+        "packageinstaller": [
+          "sources\\com\\oem\\qa\\UpgradeService.java"
+        ],
+        "persist.sys.cpe": [
+          "sources\\com\\oem\\qa\\receiver\\BootReceiver.java"
+        ]
+      }
+    },
+    "system_priv_apps__SdtGlobalKeyHandler": {
+      "scanned_files": 7,
+      "network_ioc_hits": {},
+      "behavioral_hits": {}
+    },
+    "system_priv_apps__SdtUpdate": {
+      "scanned_files": 3886,
+      "network_ioc_hits": {},
+      "behavioral_hits": {
+        "packageinstaller": [
+          "sources\\androidx\\constraintlayout\\core\\state\\a.java",
+          "sources\\com\\sdt\\ota\\common\\manager\\upgrade\\UpgradeTask.java"
+        ]
+      }
+    }
+  }
+}

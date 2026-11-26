@@ -1,0 +1,81 @@
+{
+  "collected_at_utc": "2026-11-25T12:36:51.223248+00:00",
+  "device_serial": "90094381518171",
+  "data": {
+    "synthient_counts": {
+      "file_hashes": 179,
+      "cert_fingerprints": 5,
+      "network_hosts": 85,
+      "sdk_identifiers": 4
+    },
+    "apk_hash_matches": [
+      {
+        "package": "com.oemservice",
+        "apk_path": "/system/priv-app/app_xcpe_preset/app_xcpe_preset.apk",
+        "uid": "1000",
+        "sha256": "7316469fd5b9fa633d9474a14b72716b9ceb4bbf656725ab79409da608eda2be",
+        "synthient_entry": {
+          "filename": "com.oemservice",
+          "version": "1.2.1",
+          "first_seen": "2025-06-28",
+          "description": "x.cpe device MQTT backdoor."
+        }
+      }
+    ],
+    "suspicious_property_hits": {
+      "vold.has_quota": "1"
+    },
+    "live_compound_checks": {
+      "enabled_accessibility_services": {
+        "command": "settings get secure enabled_accessibility_services",
+        "returncode": 0,
+        "output": "null\n"
+      },
+      "accessibility_enabled": {
+        "command": "settings get secure accessibility_enabled",
+        "returncode": 0,
+        "output": "0\n"
+      },
+      "dumpsys_accessibility": {
+        "command": "dumpsys accessibility 2>&1",
+        "returncode": 0,
+        "output": "ACCESSIBILITY MANAGER (dumpsys accessibility)\n\ncurrentUserId=0\nhasWindowMagnificationConnection=false\nMagnifier on display#0\n    MagnificationConfig[mode: 1, activated: false, scale: 1.0, centerX: 0.0, centerY: 0.0] \n    Magnification region=SkRegion((4,4,1916,1076))\n    IdOfLastServiceToMagnify=-1\n    SupportWindowMagnification=false\n    WindowMagnificationConnectionState=DISCONNECTED\nUser state[\n     attributes:{id=0, touchExplorationEnabled=false, serviceHandlesDoubleTap=false, requestMultiFingerGestures=false, requestTwoFingerPassthrough=false, sendMotionEventsEnabledfalse, displayMagnificationEnabled=false, autoclickEnabled=false, nonInteractiveUiTimeout=0, interactiveUiTimeout=0, installedServiceCount=3, magnificationModes={0=1}, magnificationCapabilities=3, audioDescriptionByDefaultEnabled=false, magnificationFollowTypingEnabled=true, alwaysOnMagnificationEnabled=true}\n     shortcut key:{}\n     button:{}\n     button target:{null}\n     Bound services:{}\n     Enabled services:{}\n     Binding services:{}\n     Crashed services:{}\n     Client list info:{\n          Client list callbacks: 6\n          Client list killed: false\n          Client list broadcasts count: -1\n          Registered clients:{\n[com.google.android.apps.tv.dreamx][com.kick.mobile][com.google.android.inputmethod.latin][com.google.android.katniss][com.google.android.katniss][com.androidfung.drminfo]}]\n\nWindow attributes:[{}]\nGlobal client list info:{\n    Client list callbacks: 6\n    Client list killed: false\n    Client list broadcasts count: -1\n    Registered clients:{\n[com.google.android.apps.tv.launcherx][com.google.android.apps.tv.launcherx][com.sdt.backupappmanger, com.android.dynsystem, com.rtk.partnerinterface, com.sdt.frontpanelledsservice, com.oemservice, com.sdt.mecoolrcupair, com.oem.qa, com.android.wallpaperbackup, com.android.inputdevices, com.android.tv.feedbackconsent, com.sdt.deviceinfo, com.android.providers.settings, com.android.location.fused, com.android.keychain, com.sdt.globalkey, com.sdt.producttest, android, com.realtek.slices, com.android.tv.settings, com.android.localtransport][com.google.android.permissioncontroller][com.android.localtransport, android, com.android.keychain, com.oem.qa, com.android.dynsystem, com.sdt.globalkey, com.android.inputdevices, com.sdt.producttest, com.oemservice, com.rtk.partnerinterface, com.android.tv.settings, com.sdt.deviceinfo, com.sdt.backupappmanger, com.android.wallpaperbackup, com.android.providers.settings, com.android.tv.feedbackconsent, com.android.location.fused, com.sdt.frontpanelledsservice, com.realtek.slices, com.sdt.mecoolrcupair][com.android.systemui]\n\nProxy manager state:\n    Number of proxy connections: 0\n    Registered proxy connections:\nAccessibility Display Listener:\n    SystemUI uid: 10074\n    1 valid display: 0\n"
+      },
+      "private_dns_mode": {
+        "command": "settings get global private_dns_mode",
+        "returncode": 0,
+        "output": "null\n"
+      },
+      "private_dns_specifier": {
+        "command": "settings get global private_dns_specifier",
+        "returncode": 0,
+        "output": "null\n"
+      },
+      "package_verifier_user_consent": {
+        "command": "settings get global package_verifier_user_consent",
+        "returncode": 0,
+        "output": "1\n"
+      },
+      "native_artifact_scan": {
+        "command": "find /system /vendor /product /system_ext /oem /data/local/tmp -maxdepth 5 \\( -name '*airship*' -o -name '*grass_android_2.0*' -o -name '*lw_android_agent*' -o -name '*videoadtime_pproxy*' -o -name '*libjaguar.so*' -o -name '*libseccomp_guard.so*' -o -name '*libfleetshare.so*' -o -name '*libexploit.so*' -o -name '*libnative_keys.so*' -o -name '*nat-checker*' -o -name '*frp-lite.jar*' -o -name '*ol_imp_30737.jar*' -o -name '*backup_7.jar*' -o -name '*static_host_20260206.jar*' \\) 2>/dev/null",
+        "returncode": 1,
+        "output": ""
+      },
+      "gaganode_package_check": {
+        "command": "pm list packages | grep -iE 'gaganode|nexus|grass|cboxtv|ntp|sso\\.auth|oemservice|x\\.cpe|init\\.android|ota\\.service'",
+        "returncode": 0,
+        "output": "package:com.sdt.frontpanelledsservice\npackage:com.oemservice\n"
+      },
+      "oemservice_size": {
+        "command": "stat -c '%n %s' /system/priv-app/app_xcpe_preset/app_xcpe_preset.apk 2>&1",
+        "returncode": 0,
+        "output": "/system/priv-app/app_xcpe_preset/app_xcpe_preset.apk 25155\n"
+      },
+      "sdcard_download_hashes": {
+        "command": "sha256sum /sdcard/Download/*.apk 2>&1",
+        "returncode": 0,
+        "output": "bfb72861997316a0c5fe691af7fd6937abf75c277d7afd5600d524e26ba56ac4  /sdcard/Download/inat-box-update-v14.apk\nbfb72861997316a0c5fe691af7fd6937abf75c277d7afd5600d524e26ba56ac4  /sdcard/Download/inat-box-v14-inattvproapkindir-tr (1).apk\n"
+      }
+    }
+  }
+}

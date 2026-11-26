@@ -1,0 +1,16 @@
+{
+  "collected_at_utc": "2026-11-25T11:35:59.186727+00:00",
+  "device_serial": "90094381518171",
+  "data": {
+    "permissions_grep": {
+      "command": "grep -rnE 'com\\.oemservice|xcpe|com\\.oem\\.qa|com\\.sdt|mecool|videostrong' /system/etc/permissions /system_ext/etc/permissions /product/etc/permissions /vendor/etc/permissions 2>/dev/null",
+      "returncode": 0,
+      "output": "/system/etc/permissions/privapp-permissions-SkyworthDigital.xml:23:    <privapp-permissions package=\"com.sdt.ota\">\n/system/etc/permissions/privapp-permissions-SkyworthDigital.xml:43:    <privapp-permissions package=\"com.oem.qa\">\n/system/etc/permissions/privapp-permissions-SkyworthDigital.xml:68:    <privapp-permissions package=\"com.oemservice\">\n"
+    },
+    "sysconfig_grep": {
+      "command": "grep -rnE 'com\\.oemservice|xcpe|com\\.oem\\.qa|com\\.sdt|mecool|videostrong' /system/etc/sysconfig /product/etc/sysconfig /vendor/etc/sysconfig 2>/dev/null",
+      "returncode": 2,
+      "output": ""
+    }
+  }
+}
